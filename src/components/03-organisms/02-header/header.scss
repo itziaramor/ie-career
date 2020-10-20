@@ -1,0 +1,115 @@
+.header {
+    width: 100%;
+    background: $white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    transition: all ease-out 0.3s;
+    
+    // state
+    // &.fixed {
+    //     border: 1px solid #E1E1E1;
+    //     background: #FFFFFF;
+    // }
+
+    &__buttons {
+        height: rem(47px);
+        margin-bottom: 0;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        @include media-breakpoint-up(lg) {
+            height: rem(65px);
+
+            &::before {
+                content: '';
+                width: rem(1px);
+                height: 100%;
+                background-color: $gray-300;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+
+
+        li {
+            height: rem(34px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:first-child {
+                border-right: 1px solid $gray-300;
+
+                a {
+                    padding-left: 0;
+                }
+            }
+
+            a {
+                width: rem(92px);
+                padding: rem(2px) 0;
+                font-family: $font-family-monserrat-semibold;
+                font-weight: normal;
+                font-size: rem(13px);
+                line-height: rem(29px);
+                color: $blue;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-left: rem(8px);
+
+                @include media-breakpoint-up(lg) {
+                    width: rem(108px);
+                }
+                
+                .header__buttons-icon {
+                    width: rem(16px);
+                    height: rem(16px);
+                    display: flex;
+                    position: relative;
+                    top: rem(-1px);
+
+                    svg {
+                        display: flex;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+.page-cover {
+    .header {
+        border-bottom: none;
+        &.fixed {
+            border-bottom: 1px solid #E1E1E1;
+        }
+
+        .logo-nav {
+            border-bottom: 0;
+        }
+
+        &__buttons {
+            display: none;
+        }
+    }
+}
+
+.page-module {
+    .header {
+        &__buttons {
+            display: none;
+        }
+    }
+}

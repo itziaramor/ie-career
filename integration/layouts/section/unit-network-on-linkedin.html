@@ -1,0 +1,165 @@
+{{ define "main" }} 
+<div class="page page-unit" id="{{ .Page.Params.ID }}" data-unit="{{ .Page.Params.NAVBAR_UNIT_LINK }}">
+    <header class="header">
+        <div class="logo-nav">
+            <div class="logo-nav__gradient"></div>
+        
+           <a class="logo-nav__logo" href="{{ .Page.Params.PAGE_LOGO_LINK | relURL }}">
+                <img src="{{ "/img/logo-ie.svg" | relURL }}" alt="IE University">
+            </a>
+        </div>
+        <div class="breadcrumbs">
+            <ul>
+                <li class="breadcrumbs__home">
+                    <a href="{{ .Page.Params.BREADCRUMBS_HOME_LINK | relURL }}">
+                        <span class="breadcrumbs__icon">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#home" />
+                            </svg>
+                        </span>
+                        <span class="breadcrumbs__text"><span class="sr-only"> {{ .Page.Params.BREADCRUMBS_HOME_SRONLY }}</span> {{ .Page.Params.BREADCRUMBS_HOME }}</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ .Page.Params.BREADCRUMBS_MODULE_LINK | relURL }}">{{ .Page.Params.BREADCRUMBS_MODULE }}</a>
+                </li>
+                <li>
+                    {{ .Page.Params.BREADCRUMBS_PAGE }}
+                </li>
+            </ul>
+        </div>
+        <!--./breadcrumbs-->
+
+        <nav class="navbar">
+            <div class="container">
+                <ul class="navbar__list">
+                    <li class="navbar__list-item active" data-id="{{ .Page.Params.NAVBAR_UNIT_LINK_ID_1 }}"  style="--border-nav-color: #3D8979;" ie-style="--border-nav-color: #3D8979;">
+                        <span href="{{ .Page.Params.NAVBAR_UNIT_LINK | relURL }}" class="navbar__button">
+                            <span class="navbar__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#video" />
+                                </svg>
+                            </span>
+                            <span class="sr-only">{{ .Page.Params.NAVBAR_UNIT }}</span>
+                        </span>
+                    </li>
+                    <li class="navbar__list-item" data-id="{{ .Page.Params.NAVBAR_UNIT_LINK_ID_2 }}">
+                        <a href="{{ .Page.Params.NAVBAR_UNIT_LINK_2 | relURL }}" class="navbar__button">
+                            <span class="tooltip">
+                                <span class="navbar__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#pdf" />
+                                    </svg>
+                                </span>
+                            
+                                <span class="tooltiptext tooltip-bottom">{{ .Page.Params.NAVBAR_UNIT_2 }}</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav> <!--./navbar-->
+
+        <ul class="header__buttons">
+            <li>
+                <a href="{{ .Page.Params.PAGE_BUTTON_BACK | relURL }}">
+                    <span class="header__buttons-icon">
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#chevron-left" />
+                        </svg>
+                    </span>
+                    {{ .Page.Params.PAGE_BUTTON_BACK_TEXT }} <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_BACK_TEXT_AA }}</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ .Page.Params.PAGE_BUTTON_NEXT | relURL }}">
+                    {{ .Page.Params.PAGE_BUTTON_NEXT_TEXT }} <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_NEXT_TEXT_AA }}</span>
+                    <span class="header__buttons-icon">
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#chevron-right" />
+                        </svg>
+                    </span>
+                </a>
+            </li>
+        </ul>  <!--./header__buttons-->
+    </header> <!--./header-->
+
+
+    <main class="page__content">
+        <div class="container">
+
+            <div class="block block--unit-header" ie-style="--border-color: transparent;">
+                <div class="block__content">
+                    <p class="block__subtitle">{{ .Page.Params.SECTION_SUBTITLE }}</p>
+                    <h1 class="block__title">
+                        {{ .Page.Params.SECTION_TITLE }}
+                    </h1>
+                </div>
+            </div>
+
+            <!--./block .block-unit-header-->
+
+            <div class="block block--video" style="--border-color: #3D8979;" ie-style="--border-color: #3D8979;">
+                <div class="block__content">
+                    <div class="video-wrapper video-wrapper--video">
+                        <a href="#" class="video-wrapper__cover" data-video-target="defaultVideo">
+                            <img src="{{ .Page.Params.SECTION_VIDEO_COVER  | relURL }}" alt="">
+                    
+                            <span class="video-wrapper__play">
+                                <img src="{{ "/img/icons/play.svg" | relURL }}" alt="">
+                                <span class="sr-only">{{ .Page.Params.SECTION_VIDEO_BUTTON_PLAY }}</span>
+                            </span>
+                        </a>
+                        <div id="defaultVideo" class="video-wrapper__video" data-video-source="{{ .Page.Params.SECTION_VIDEO }}" data-video-caption-ori="{{ .Page.Params.SECTION_VIDEO_CAPTION_ORI }}" data-video-caption-alt="{{ .Page.Params.SECTION_VIDEO_CAPTION_ALT }}" data-video-language-ori="{{ .Page.Params.SECTION_VIDEO_LANGUAGE_ORI }}" data-video-language-alt="{{ .Page.Params.SECTION_VIDEO_LANGUAGE_ALT }}">
+                            <div id="vc-defaultVideo" class="video-wrapper__content"></div>
+                        </div>
+                    </div> <!--video-wrapper-->
+                    <a href="{{ .Page.Params.SECTION_LINK_DOWNLOAD | relURL }}" class="btn btn--link-double btn--icon" target="_blank" download>
+                        <span class="btn__icon btn__icon--left">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#pdf" />
+                            </svg>
+                        </span>
+
+                        <span class="btn__flex">
+                            {{ .Page.Params.SECTION_LINK_DOWNLOAD_TITLE }}
+
+                            <span class="btn__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#download" />
+                                </svg>
+                            </span>
+                        </span>
+                    </a> <!--./btn-link-double .btn-icon-->
+                </div>
+            </div> <!--./.block block-video-->
+
+
+             <div class="page__content-buttons page__content-buttons--space-between">
+                <a href="{{ .Page.Params.PAGE_BUTTON_BACK | relURL }}" class="btn btn--primary btn--icon btn--icon-left">
+                    <span class="btn__icon btn__icon-left"> 
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#chevron-left" />
+                        </svg>
+                    </span>
+
+                    {{ .Page.Params.PAGE_BUTTON_BACK_TEXT }} <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_BACK_TEXT_AA }}</span>
+                </a>
+                <!--./btn .btn-primary .btn-icon-->
+                <a href="{{ .Page.Params.PAGE_BUTTON_NEXT | relURL }}" class="btn btn--primary btn--icon">
+                    {{ .Page.Params.PAGE_BUTTON_NEXT_TEXT }} <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_NEXT_TEXT_AA }}</span>
+
+                    <span class="btn__icon"> 
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#chevron-right" />
+                        </svg>
+                    </span>
+                </a>
+                <!--./btn .btn-primary .btn-icon-->
+            </div>
+            <!--./page__content-buttons-->
+
+        </div>
+    </main>
+</div>
+{{ end }}

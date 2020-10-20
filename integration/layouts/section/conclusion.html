@@ -1,0 +1,138 @@
+{{ define "main" }} 
+<div class="page page-module">
+
+    <header class="header">
+        <div class="logo-nav">
+            <div class="logo-nav__gradient"></div>
+        
+           <a class="logo-nav__logo" href="{{ .Page.Params.PAGE_LOGO_LINK | relURL }}">
+                <img src="{{ "/img/logo-ie.svg" | relURL }}" alt="IE University">
+            </a>
+        </div>
+        <div class="breadcrumbs">
+            <ul>
+                <li class="breadcrumbs__home">
+                    <a href="{{ .Page.Params.BREADCRUMBS_HOME_LINK | relURL }}">
+                        <span class="breadcrumbs__icon">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#home" />
+                            </svg>
+                        </span>
+                        <span class="breadcrumbs__text"><span class="sr-only"> {{ .Page.Params.BREADCRUMBS_HOME_SRONLY }}</span> {{ .Page.Params.BREADCRUMBS_HOME }}</span>
+                    </a>
+                </li>
+                <li>
+                    {{ .Page.Params.BREADCRUMBS_PAGE }}
+                </li>
+            </ul>
+        </div>
+        <!--./breadcrumbs-->
+
+        <ul class="header__buttons">
+            <li>
+                <a href="{{ .Page.Params.PAGE_BUTTON_BACK | relURL }}">
+                    <span class="header__buttons-icon">
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#chevron-left" />
+                        </svg>
+                    </span>
+                    {{ .Page.Params.PAGE_BUTTON_BACK_TEXT }} <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_BACK_TEXT_AA }}</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ .Page.Params.PAGE_BUTTON_NEXT | relURL }}">
+                    {{ .Page.Params.PAGE_BUTTON_NEXT_TEXT }} <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_NEXT_TEXT_AA }}</span>
+                    <span class="header__buttons-icon">
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#chevron-right" />
+                        </svg>
+                    </span>
+                </a>
+            </li>
+        </ul>  <!--./header__buttons-->
+    </header> <!--./header-->
+
+    <main class="page__content">
+        <div class="container">
+            
+            <div class="block block--single" style="--border-color: #031282;" ie-style="--border-color: #031282;">
+                <div class="block__content">
+                    <h1>{{ .Page.Params.PAGE_TITLE }}</h1>
+                </div>
+            </div>
+            <!--./block .block-course-->
+
+            <div class="block block--accordion accordion"  style="--border-color: #555555;" ie-style="--border-color: #555555;">
+                <div class="accordion__header">
+                    <h2 class="accordion__header-title">
+                        <span class="btn btn--link-double btn--icon">
+                            <span class="btn__icon btn__icon--left">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+    
+                            {{ .Page.Params.SECTION_1_MODULE_4 }}
+    
+                            <span class="btn__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#arrow-right" />
+                                </svg>
+                            </span>
+                        </span>
+                        <!--./btn-link-double .btn-icon-->
+                    </h2>
+                </div>
+                <div class="accordion__body open">
+                    <p>{{ .Page.Params.SECTION_1_MODULE_4_TEXT }}</p>
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_4_SUBMODULE_1 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_4_SUBMODULE_1_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_4_SUBMODULE_1_UNIT_1_DATA }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_4_SUBMODULE_1_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+                </div>
+            </div>
+            <!--./block .block-accordion-->
+        </div>
+    </main>
+</div>
+{{ end }}

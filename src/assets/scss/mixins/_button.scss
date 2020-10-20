@@ -1,0 +1,75 @@
+// ------------------------------------------------------
+// BUTTON
+// ------------------------------------------------------
+
+@mixin button {
+  display: inline-flex;
+  justify-content: center;
+  border: none;
+  border-radius: $border-radius-base;
+  min-width: 156px;
+  min-height: rem($btn-height);
+  padding: rem($btn-padding-y $btn-padding-x);
+  background: transparent;
+  font-family: $font-family-base;
+  font-size: rem(16px);
+  font-weight: 700;
+  line-height: 20px;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+  transition: all ease-out 0.3s;
+  position: relative;
+  overflow: hidden;
+
+  & + & {
+    margin-left: rem($btn-margin-left);
+  }
+
+  span {
+    position: relative;
+    z-index: 4;
+  }
+
+  &__icon {
+    width: rem(24px);
+    height: rem(24px);
+    margin-right: rem(20px);
+    display: flex;
+    svg {
+      width: 100%;
+    }
+
+    &--arrow {
+      margin-right: 0;
+      margin-left: rem(20px);
+    }
+  }
+
+  &::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba($black, 0.10);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    transition: all ease-out 0.3s;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+
+  @include hover {
+    text-decoration: none;
+
+    &::after {
+      opacity: 1;
+    }
+  }
+}

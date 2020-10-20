@@ -1,0 +1,28 @@
+1
+00:00:00,420 --> 00:00:03,580
+Prediction of inventory levels shortages
+and automatic orders,
+
+2
+00:00:03,940 --> 00:00:07,110
+sends alerts in case of
+vandalism and change of location,
+
+3
+00:00:07,220 --> 00:00:09,900
+but also collects customer profiles
+and data insights:
+
+4
+00:00:10,300 --> 00:00:12,180
+what customers buy and when they buy it.
+
+5
+00:00:12,600 --> 00:00:15,800
+Content on the screen display adjust
+based on the profile of the customer
+
+6
+00:00:15,880 --> 00:00:17,340
+and other circumstances.
+

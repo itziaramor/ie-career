@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 9</title>
+    <g id="01-Previa" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Estilos" transform="translate(-309.000000, -1101.000000)">
+            <g id="Group-2" transform="translate(309.000000, 1101.000000)">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <g id="Group-6" transform="translate(2.000000, 1.000000)" fill="#555555" fill-rule="nonzero">
+                    <path d="M3,2 L13,2 L13,6 L17,6 L17,7 L19,7 L19,4.586 L14.414,0 L3,0 C1.897,0 1,0.898 1,2 L1,7 L3,7 L3,2 Z" id="Path"></path>
+                    <path d="M17,20 L3,20 L3,19 L1,19 L1,20 C1,21.103 1.897,22 3,22 L17,22 C18.103,22 19,21.103 19,20 L19,19 L17,19 L17,20 Z" id="Path"></path>
+                    <path d="M7,9 L7,17 L9,17 C11.206,17 13,15.206 13,13 C13,10.794 11.206,9 9,9 L7,9 Z M11,13 C11,14.103 10.103,15 9,15 L9,11 C10.103,11 11,11.898 11,13 Z" id="Shape"></path>
+                    <path d="M20,11 L20,9 L16,9 C14.897,9 14,9.898 14,11 L14,17 L16,17 L16,14 L19,14 L19,12 L16,12 L16,11 L20,11 Z" id="Path"></path>
+                    <path d="M2,15 L3,15 C4.654,15 6,13.654 6,12 C6,10.346 4.654,9 3,9 L0,9 L0,17 L2,17 L2,15 Z M2,11 L3,11 C3.551,11 4,11.448 4,12 C4,12.552 3.551,13 3,13 L2,13 L2,11 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

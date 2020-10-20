@@ -1,0 +1,12 @@
+<a href="#"class="btn {{ buttonModifier }}" {{{ buttonAttributes }}}>
+  {{buttonText}}
+
+  {{#if buttonIcon }}
+    <span class="btn__icon">
+      <svg role="presentation">
+        <use xlink:href="../../img/sprite.svg#{{ buttonIcon }}" />
+      </svg>
+    </span>
+  {{/if}}
+
+</a>

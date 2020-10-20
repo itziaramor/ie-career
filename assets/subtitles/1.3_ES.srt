@@ -1,0 +1,325 @@
+1
+00:00:08,120 --> 00:00:08,930
+Hola de nuevo.
+
+2
+00:00:09,380 --> 00:00:10,493
+En este video,
+
+3
+00:00:10,640 --> 00:00:13,400
+aprenderemos sobre
+los sistemas de seguimiento de candidatos
+
+4
+00:00:13,700 --> 00:00:16,900
+y cómo optimizar nuestros CV para asegurarnos
+de que sean tomados en cuenta
+
+5
+00:00:16,980 --> 00:00:19,220
+por los sitios de reclutadores
+y gerentes de recursos humanos.
+
+6
+00:00:19,850 --> 00:00:23,281
+Como sabrás, los sistemas
+de seguimiento de candidatos son software
+
+7
+00:00:23,420 --> 00:00:26,020
+que simplifican los procesos
+de contratación de las compañías
+
+8
+00:00:26,240 --> 00:00:28,500
+mediante la clasificación de los candidatos
+
+9
+00:00:28,699 --> 00:00:32,000
+basados en la información de sus CV.
+
+10
+00:00:32,990 --> 00:00:35,840
+Los sistemas de seguimiento de candidatos
+recolectan información
+
+11
+00:00:35,920 --> 00:00:38,830
+de los candidatos a un puesto
+y los comparan principalmente
+
+12
+00:00:38,900 --> 00:00:42,950
+en función de las palabras clave
+que los candidatos incluyen en sus CV.
+
+13
+00:00:44,780 --> 00:00:48,565
+Estas palabras clave pueden reflejar
+habilidades técnicas, competencias
+
+14
+00:00:48,800 --> 00:00:51,710
+o conocimientos sobre un software, entre otros.
+
+15
+00:00:52,460 --> 00:00:55,793
+Clasifican todos los candidatos
+en función de las palabras clave
+
+16
+00:00:55,840 --> 00:00:58,820
+y proporcionan a los reclutadores
+y gerentes de recursos humanos una lista
+
+17
+00:00:58,960 --> 00:01:01,310
+de los candidatos más idóneos.
+
+18
+00:01:02,490 --> 00:01:05,483
+La mayoría de los principales empleadores
+utilizan este tipo de sistema
+
+19
+00:01:05,720 --> 00:01:08,640
+para simplificar y acelerar
+sus procesos de contratación,
+
+20
+00:01:08,960 --> 00:01:14,120
+pues normalmente descartan
+alrededor del 70 % de los currículums recibidos
+
+21
+00:01:14,200 --> 00:01:16,260
+para cada vacante.
+
+22
+00:01:17,150 --> 00:01:21,693
+Esto se debe a que su experiencia es incompatible
+con las cualificaciones deseadas
+
+23
+00:01:21,820 --> 00:01:25,800
+o a que el sistema
+no puede leer el formato de los CV.
+
+24
+00:01:26,720 --> 00:01:29,180
+Utilizar las palabras clave correctas
+
+25
+00:01:29,320 --> 00:01:33,920
+y presentar nuestro CV en un formato adecuado
+puede aumentar nuestras posibilidades
+
+26
+00:01:34,000 --> 00:01:36,650
+de superar este proceso de selección inicial.
+
+27
+00:01:38,210 --> 00:01:39,760
+Durante este curso en línea
+
+28
+00:01:39,860 --> 00:01:44,810
+mencionamos la importancia de personalizar
+nuestro CV a cada oferta de empleo.
+
+29
+00:01:45,620 --> 00:01:50,220
+Asegúrate de incluir palabras clave en tu CV
+que sean relevantes para la oferta de empleo.
+
+30
+00:01:51,010 --> 00:01:54,230
+Estas palabras clave
+están disponibles en la descripción del empleo
+
+31
+00:01:54,470 --> 00:01:56,277
+así como en la página web de la compañía,
+
+32
+00:01:56,440 --> 00:01:59,090
+donde podrás encontrar mayor información
+
+33
+00:01:59,240 --> 00:02:02,410
+sobre lo que la compañía
+busca en el candidato ideal.
+
+34
+00:02:04,030 --> 00:02:07,220
+Puedes utilizar muchas
+de las palabras clave más de una vez,
+
+35
+00:02:07,600 --> 00:02:09,512
+pues el sistema te otorgará puntos
+
+36
+00:02:09,620 --> 00:02:12,200
+por cada vez que estas palabras clave
+aparezcan en tu currículum.
+
+37
+00:02:12,720 --> 00:02:14,360
+Pero tampoco las uses excesivamente
+
+38
+00:02:14,720 --> 00:02:17,680
+porque pueden llegar a perder sentido.
+
+39
+00:02:18,560 --> 00:02:22,845
+Empieza a preparar e identificar
+las palabras clave más relevantes
+
+40
+00:02:22,920 --> 00:02:25,940
+para el sector y el cargo de tu interés
+lo antes posible.
+
+41
+00:02:26,540 --> 00:02:28,340
+"Gestión de proyectos" en consultoría
+
+42
+00:02:28,470 --> 00:02:32,000
+o "modelado financiero" en finanzas
+son solo un par de ejemplos,
+
+43
+00:02:32,220 --> 00:02:35,240
+pero estas palabras clave
+cambian dependiendo del sector
+
+44
+00:02:35,394 --> 00:02:37,510
+y a veces incluso de las compañías.
+
+45
+00:02:38,210 --> 00:02:41,078
+Las compañías con una sólida cultura
+empresarial pueden incluso
+
+46
+00:02:41,160 --> 00:02:42,540
+tener sus propias palabras clave.
+
+47
+00:02:43,300 --> 00:02:47,600
+Puede ser difícil incluir palabras clave
+específicas del sector en tu CV
+
+48
+00:02:47,780 --> 00:02:50,760
+si no posees experiencia profesional
+en dicho sector.
+
+49
+00:02:51,130 --> 00:02:52,080
+La buena noticia es
+
+50
+00:02:52,200 --> 00:02:55,530
+que puedes utilizar tu perfil profesional
+para incluir las palabras clave
+
+51
+00:02:55,680 --> 00:02:59,420
+relevantes para el cargo,
+incluso si es complicado incluirlas
+
+52
+00:02:59,520 --> 00:03:02,500
+en las secciones de educación
+o experiencia profesional.
+
+53
+00:03:03,160 --> 00:03:06,910
+Incluye las fechas en las secciones
+de educación y experiencia profesional.
+
+54
+00:03:07,240 --> 00:03:10,520
+Es posible que el sistema las lea
+y filtre por años de experiencia
+
+55
+00:03:10,700 --> 00:03:12,880
+o por fecha de graduación.
+
+56
+00:03:14,880 --> 00:03:19,300
+Asegúrate de utilizar tanto las siglas
+como el formato completo de las palabras clave.
+
+57
+00:03:19,580 --> 00:03:23,740
+Por ejemplo,
+"MBA" y "Master in Business Administration"
+
+58
+00:03:23,921 --> 00:03:26,310
+o "MIM" y "Master In Management".
+
+59
+00:03:26,640 --> 00:03:29,340
+Los sistemas de seguimiento de candidatos (ATS)
+prefieren los formatos simples
+
+60
+00:03:29,400 --> 00:03:30,620
+y las fuentes tradicionales.
+
+61
+00:03:30,960 --> 00:03:34,320
+Este tipo de CV es más fácil leer para ellos.
+
+62
+00:03:34,520 --> 00:03:38,100
+Así que evita usar tablas,
+columnas o gráficos sofisticados.
+
+63
+00:03:39,860 --> 00:03:43,060
+Asegúrate de usar
+encabezados de sección estándar en tu CV,
+
+64
+00:03:43,260 --> 00:03:46,220
+como "Educación" o "Experiencia profesional",
+
+65
+00:03:46,620 --> 00:03:49,740
+para que el sistema los identifique fácilmente
+
+66
+00:03:49,840 --> 00:03:54,170
+y, de ser posible, envía tu CV en formato .docx.
+
+67
+00:03:54,860 --> 00:03:57,220
+Como puedes ver, optimizar tu CV
+
+68
+00:03:57,340 --> 00:04:01,520
+para este primer filtro de selección en línea
+necesita tiempo y planeación.
+
+69
+00:04:01,970 --> 00:04:04,280
+Existen numerosos recursos en línea
+
+70
+00:04:04,420 --> 00:04:06,720
+que te ayudarán a dominar los ATS.
+
+71
+00:04:06,980 --> 00:04:09,560
+Asegúrate de consultarlos en esta sección.
+

@@ -1,0 +1,31 @@
+.video-wrapper {
+  position: relative;
+
+  &__cover {
+    display: flex;
+    
+    img {
+      width: 100%;
+    }
+  }
+
+  &__play {
+    width: rem(50px);
+    margin: 0 auto;
+    position: absolute;
+    top: calc(50% - 24px);
+    left: 0;
+    right: 0;
+    z-index: 4;
+
+    @include media-breakpoint-up(md) {
+      width: rem(82px);
+      top: calc(50% - 36px);
+    }
+
+    img {
+      max-width: 100%;
+      width: auto;
+    }
+  }
+}

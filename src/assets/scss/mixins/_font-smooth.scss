@@ -1,0 +1,10 @@
+// ------------------------------------------------------
+// FONT SMOOTH
+// edit font rendering -> tip: use for light text on dark backgrounds
+// https://github.com/CodyHouse/codyhouse-framework/blob/master/main/assets/css/base/_mixins.scss
+// ------------------------------------------------------
+
+@mixin fontSmooth {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

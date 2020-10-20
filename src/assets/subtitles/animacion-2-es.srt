@@ -1,0 +1,204 @@
+1
+00:00:00,270 --> 00:00:01,030
+¡Hola de nuevo! 
+
+2
+00:00:01,100 --> 00:00:02,970
+Descubramos un poco más sobre la vida de María.
+
+3
+00:00:03,300 --> 00:00:06,488
+Como recordarás,
+María es Gerente de Operaciones y Logística
+
+4
+00:00:06,580 --> 00:00:08,700
+de una gran compañía
+productora de equipos médicos
+
+5
+00:00:08,800 --> 00:00:11,980
+con centros de distribución
+en el Reino Unido y Europa.
+
+6
+00:00:12,570 --> 00:00:14,840
+Todas las mañanas, María recorre la fábrica,
+
+7
+00:00:14,940 --> 00:00:16,760
+que cuenta con numerosas tecnologías de IoT
+
+8
+00:00:16,840 --> 00:00:20,400
+que permiten el correcto funcionamiento
+y cumplimiento de todos los procesos.
+
+9
+00:00:21,510 --> 00:00:25,550
+Lo primero que hace María es acceder
+al panel de control del centro de operaciones
+
+10
+00:00:25,740 --> 00:00:29,640
+para asegurarse de que toda la maquinaria
+y las operaciones funcionan correctamente.
+
+11
+00:00:30,040 --> 00:00:31,280
+Esto se hace de forma automática
+
+12
+00:00:31,390 --> 00:00:33,780
+a través de sensores
+con reconocimiento facial.
+
+13
+00:00:34,530 --> 00:00:38,100
+Al conectarse, María nota que hay
+una señal de alarma en la pantalla principal
+
+14
+00:00:38,300 --> 00:00:42,500
+que indica que la máquina número 3
+debe ser reiniciada lo antes posible
+
+15
+00:00:42,640 --> 00:00:45,020
+debido a un fallo en su sistema operativo.
+
+16
+00:00:45,620 --> 00:00:48,120
+El sistema sugiere reiniciar
+la máquina después de las 9:00 pm,
+
+17
+00:00:48,450 --> 00:00:51,880
+cuando los niveles de producción son bajos
+y no se interfiere con el flujo de trabajo.
+
+18
+00:00:52,590 --> 00:00:54,000
+A través de su tableta corporativa,
+
+19
+00:00:54,080 --> 00:00:57,640
+María puede decidir si aprueba
+la recomendación del sistema,
+
+20
+00:00:57,780 --> 00:00:59,940
+establece un nuevo horario o ignora la señal.
+
+21
+00:01:00,780 --> 00:01:03,720
+La segunda actividad de María
+es recorrer la fábrica
+
+22
+00:01:03,840 --> 00:01:06,120
+y hablar con los diferentes ingenieros
+que allí trabajan.
+
+23
+00:01:06,560 --> 00:01:08,250
+Una nueva alarma aparece en su tableta.
+
+24
+00:01:08,790 --> 00:01:09,720
+¡Es una alerta roja!
+
+25
+00:01:10,200 --> 00:01:13,320
+El ingeniero Peter se acerca a María,
+toma su tableta
+
+26
+00:01:13,400 --> 00:01:16,560
+y, mediante un código, activa a distancia
+el procedimiento de enfriamiento.
+
+27
+00:01:17,140 --> 00:01:19,900
+El sistema de enfriamiento alrededor
+de la máquina número 2 comienza
+
+28
+00:01:19,960 --> 00:01:21,860
+a bajar la temperatura
+del motor automáticamente.
+
+29
+00:01:22,020 --> 00:01:23,040
+¡La fábrica está a salvo!
+
+30
+00:01:23,970 --> 00:01:27,270
+Después de este incidente,
+María puede seguir recorriendo la fábrica.
+
+31
+00:01:27,930 --> 00:01:29,790
+¿Recuerdas el casco de seguridad de María?
+
+32
+00:01:30,270 --> 00:01:34,100
+Este casco también está conectado
+al sistema de la fábrica vía IOT.
+
+33
+00:01:34,650 --> 00:01:38,040
+Este tipo de equipo permite a las organizaciones
+proveer medidas de protección
+
+34
+00:01:38,160 --> 00:01:40,620
+para todos los empleados
+que trabajan en ambientes riesgosos.
+
+35
+00:01:41,280 --> 00:01:43,100
+Pero esto no es magia,
+
+36
+00:01:43,300 --> 00:01:45,430
+algunos accidentes no se pueden predecir,
+
+37
+00:01:45,540 --> 00:01:48,360
+y como todos sabemos,
+los accidentes ocurren.
+
+38
+00:01:48,880 --> 00:01:51,840
+En su tableta aparece
+una nueva notificación que dice:
+
+39
+00:01:52,040 --> 00:01:53,820
+"¡Precaución en el pasillo 4!"
+
+40
+00:01:54,200 --> 00:01:57,580
+Teniendo en cuenta esta información,
+María decide evitar el pasillo 4,
+
+41
+00:01:57,720 --> 00:01:59,680
+y envía un informe al departamento de seguridad.
+
+42
+00:02:00,390 --> 00:02:02,940
+Este es un día normal
+en la vida cotidiana de María
+
+43
+00:02:03,040 --> 00:02:06,090
+con soluciones IoT en el campo
+de las operaciones y la logística.
+
+44
+00:02:06,510 --> 00:02:09,060
+¿De qué forma crees que el IoT
+puede afectar otras áreas?
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 8</title>
+    <g id="01-Previa" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Estilos" transform="translate(-406.000000, -1099.000000)">
+            <g id="Group-3" transform="translate(406.000000, 1099.000000)">
+                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M22,3 L2,3 C0.897,3 0,3.897 0,5 L0,18 C0,19.103 0.897,20 2,20 L11,20 L11,22 L7,22 L7,24 L17,24 L17,22 L13,22 L13,20 L22,20 C23.104,20 24,19.103 24,18 L24,5 C24,3.897 23.104,3 22,3 Z M22,5 L21.998,15 L2,15 L2,5 L22,5 Z M2,18 L2,17 L21.997,17 L21.997,18 L2,18 Z" id="Shape" fill="#555555" fill-rule="nonzero"></path>
+                <polygon id="Path" fill="#555555" fill-rule="nonzero" points="8.999 6 8.999 14 16.999 10"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

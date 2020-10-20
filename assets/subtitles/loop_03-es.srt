@@ -1,0 +1,23 @@
+1
+00:00:00,360 --> 00:00:01,900
+Monitoreo de la ubicación de los camiones,
+
+2
+00:00:01,980 --> 00:00:04,040
+optimización de rutas basada
+en los atascos de tráfico,
+
+3
+00:00:04,140 --> 00:00:05,580
+el clima y las entregas de pedidos.
+
+4
+00:00:05,860 --> 00:00:08,780
+Información sobre el comportamiento
+de conducción y las emisiones de gases
+
+5
+00:00:08,840 --> 00:00:11,460
+y alertas sobre accidentes
+o ciertas situaciones.
+

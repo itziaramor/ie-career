@@ -1,0 +1,49 @@
+baseURL = "http://localhost:1313"
+title = "IE Career Success"
+DefaultContentLanguage = "en"
+languageCode = "en"
+relativeURLs = true
+copyright = "IE &copy;2020"
+code = "RH4-132-I-M"
+
+[params]
+  name = "Career Success"
+  ieURL = "https://www.ie.edu/"
+  author = "Irina Zilbergleyt, Alejandra de la Peña García-Arquimbáu, Johan Turcios, and Teresa Callejo."
+  code = "RH4-132-I-M"
+
+[languages]
+  [languages.en]
+    baseURL = "en"
+    entryURL = "../index.html"
+    languageName = "English"
+    languageCode = "en"
+    title = "IE Career Success"
+    weight = 2
+
+    [languages.en.params]
+      start = "START!"
+      [languages.en.params.home]
+        heading = "The unpredictable journey of entrepreneurial discovery and the story of..."
+        timeLabel = "Estimated Time"
+        time = "90 minutes"
+        codeLabel = "Code"
+        authorLabel = "Author"
+
+
+  [languages.es]
+    baseURL = "es"
+    entryURL = "../index.html"
+    languageName = "Español"
+    languageCode = "es"
+    title = "IE Career Success"
+    weight = 3
+
+    [languages.es.params]
+      start = "START!"
+      [languages.es.params.home]
+        heading = "The unpredictable journey of entrepreneurial discovery and the story of..."
+        timeLabel = "Tiempo estimado"
+        time = "90 minutos"
+        codeLabel = "Código"
+        authorLabel = "Autor"

@@ -1,0 +1,19 @@
+1
+00:00:00,390 --> 00:00:01,753
+Truck location monitoring,
+
+2
+00:00:01,860 --> 00:00:05,580
+route optimization based on traffic jams,
+weather and order deliveries.
+
+3
+00:00:05,940 --> 00:00:08,660
+Data insights about driving behavior
+and gas emissions
+
+4
+00:00:08,813 --> 00:00:11,420
+and alerts about accidents
+or certain situations.
+

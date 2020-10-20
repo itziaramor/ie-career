@@ -1,0 +1,110 @@
+{{ define "main" }} 
+<div class="page page-authors">
+    <header class="header">
+        <div class="logo-nav">
+            <div class="logo-nav__gradient"></div>
+        
+           <a class="logo-nav__logo" href="{{ .Page.Params.PAGE_LOGO_LINK | relURL }}">
+                <img src="{{ "/img/logo-ie.svg" | relURL }}" alt="IE University">
+            </a>
+        </div>
+        
+        <div class="breadcrumbs">
+            <ul>
+                <li class="breadcrumbs__home">
+                    <a href="{{ .Page.Params.BREADCRUMBS_HOME_LINK | relURL }}">
+                        <span class="breadcrumbs__icon">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#home" />
+                            </svg>
+                        </span>
+                        <span class="breadcrumbs__text"><span class="sr-only"> {{ .Page.Params.BREADCRUMBS_HOME_SRONLY }}</span> {{ .Page.Params.BREADCRUMBS_HOME }}</span>
+                    </a>
+                </li>
+                <li>
+                    {{ .Page.Params.BREADCRUMBS_PAGE }}
+                </li>
+        </div>
+        <!--./breadcrumbs-->
+    </header> <!--./header-->
+
+
+    <main class="page__content">
+        <div class="container">
+
+            <div class="block block--authors-header" ie-style="--border-color: transparent;">
+                <div class="block__content">
+                    <h1 class="block__title">
+                        <span class="block__title-icon">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#author" />
+                            </svg>
+                        </span>
+            
+                        {{ .Page.Params.SECTION_AUTHORS_TITLE }}
+                    </h1>
+                    <h2 class="block__course-name">{{ .Page.Params.SECTION_AUTHORS_COURSE_NAME }}</h2>
+                </div>
+            </div> <!--./block .block-authors-->
+
+            <div class="block block--authors" style="--border-color: #031282;" ie-style="--border-color: #031282;">
+                <div class="block__content">
+                    <img src="{{ "/img/authors/irina-zilbergleyt.png" | relURL }}" alt="" class="block__image">
+                    <h3 class="block__title">{{ .Page.Params.SECTION_AUTHORS_AUTHOR_1 }}</h3>
+                    <p class="block__job">{{ .Page.Params.SECTION_AUTHORS_AUTHOR_1_JOB }}</p>
+
+                    <p>{{ .Page.Params.SECTION_AUTHORS_AUTHOR_1_TEXT }}</p>
+                </div>
+            </div>  
+            <!--./block .block-authors-->
+
+            <div class="block block--authors" style="--border-color: #3D8979;" ie-style="--border-color: #3D8979;">
+                <div class="block__content">
+                    <img src="{{ "/img/authors/teresa-callejo.png" | relURL }}" alt="" class="block__image">
+                    <h3 class="block__title">{{ .Page.Params.SECTION_AUTHORS_AUTHOR_2 }}</h3>
+                    <p class="block__job">{{ .Page.Params.SECTION_AUTHORS_AUTHOR_2_JOB }}</p>
+
+                    <p>{{ .Page.Params.SECTION_AUTHORS_AUTHOR_2_TEXT }}</p>
+                </div>
+            </div>
+            <!--./block .block-authors-->
+
+            <div class="block block--authors" style="--border-color: #0097DC;" ie-style="--border-color: #0097DC;">
+                <div class="block__content">
+                    <img src="{{ "/img/authors/alejandra-pena.png" | relURL }}" alt="" class="block__image">
+                    <h3 class="block__title">{{ .Page.Params.SECTION_AUTHORS_AUTHOR_3 }}</h3>
+                    <p class="block__job">{{ .Page.Params.SECTION_AUTHORS_AUTHOR_3_JOB }}</p>
+
+                    <p>{{ .Page.Params.SECTION_AUTHORS_AUTHOR_3_TEXT }}</p>
+                </div>
+            </div>
+            <!--./block .block-authors-->
+
+            <div class="block block--authors" style="--border-color: #D32E58;" ie-style="--border-color: #D32E58;">
+                <div class="block__content">
+                    <img src="{{ "/img/authors/johan-turcios.png" | relURL }}" alt="" class="block__image">
+                    <h3 class="block__title">{{ .Page.Params.SECTION_AUTHORS_AUTHOR_4 }}</h3>
+                    <p class="block__job">{{ .Page.Params.SECTION_AUTHORS_AUTHOR_4_JOB }}</p>
+
+                    <p>{{ .Page.Params.SECTION_AUTHORS_AUTHOR_4_TEXT }}</p>
+                </div>
+            </div>
+            <!--./block .block-authors-->
+
+            <div class="page__content-buttons">
+                <a href="{{ .Page.Params.PAGE_BUTTON_BACK | relURL }}" class="btn btn--primary btn--icon btn--icon-left">
+                    <span class="btn__icon btn__icon-left"> 
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#chevron-left" />
+                        </svg>
+                    </span>
+
+                    <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_BACK_TEXT_AA }}</span> {{ .Page.Params.PAGE_BUTTON_BACK_TEXT }}
+                </a>
+            </div>
+            <!--./page__content-buttons-->
+
+        </div>
+    </main>
+</div>
+{{ end }}

@@ -1,0 +1,102 @@
+1
+00:00:04,280 --> 00:00:07,380
+Me llamo Konstantina Valogianni,
+soy profesora en IE Business School,
+
+2
+00:00:07,480 --> 00:00:10,230
+y hoy te voy a hablar
+sobre el machine learning.
+
+3
+00:00:10,770 --> 00:00:12,180
+De acuerdo con Tom Mitchell,
+
+4
+00:00:12,300 --> 00:00:15,180
+profesor de machine learning
+en Carnegie Mellon University
+
+5
+00:00:15,320 --> 00:00:19,080
+y uno de los primeros a proponer una definición
+integral de machine learning,
+
+6
+00:00:19,760 --> 00:00:22,640
+se dice que un programa informático
+aprende de la experiencia,
+
+7
+00:00:22,740 --> 00:00:26,760
+en lo que respecta a
+ciertas tareas y grado de desempeño,
+
+8
+00:00:27,000 --> 00:00:31,140
+si su desempeño de estas tareas
+mejora con la experiencia.
+
+9
+00:00:31,860 --> 00:00:35,860
+En otras palabras, es la ciencia de
+enseñarle algoritmos a una computadora
+
+10
+00:00:35,940 --> 00:00:38,950
+para obtener retroalimentación
+sobre tareas realizadas anteriormente
+
+11
+00:00:39,320 --> 00:00:42,060
+y así mejorar paulatinamente su desempeño
+
+12
+00:00:42,180 --> 00:00:44,400
+con respecto a un objetivo predefinido.
+
+13
+00:00:45,240 --> 00:00:46,040
+Por ejemplo,
+
+14
+00:00:46,240 --> 00:00:50,000
+una computadora que aprende
+a jugar damas puede mejorar su desempeño
+
+15
+00:00:50,100 --> 00:00:53,800
+al medir su habilidad para ganar en las damas
+
+16
+00:00:54,170 --> 00:00:56,310
+cuando juega contra sí misma.
+
+17
+00:00:57,510 --> 00:01:00,600
+Existen numerosas aplicaciones
+del machine learning en los negocios.
+
+18
+00:01:00,800 --> 00:01:04,050
+Por ejemplo, las recomendaciones
+de Amazon se basan
+
+19
+00:01:04,120 --> 00:01:07,450
+en el aprendizaje sobre las
+preferencias pasadas de los usuarios;
+
+20
+00:01:07,820 --> 00:01:12,790
+o Facebook ahora utiliza el reconocimiento
+facial para identificar rostros en las fotos
+
+21
+00:01:13,180 --> 00:01:15,810
+a través del machine learning
+basado en datos pasados.
+
+22
+00:01:16,580 --> 00:01:18,520
+Y estos son solo dos de ellos.

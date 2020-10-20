@@ -1,0 +1,101 @@
+1
+00:00:04,280 --> 00:00:07,380
+I am Konstantina Valogianni,
+a professor at IE Business School,
+
+2
+00:00:07,480 --> 00:00:10,230
+and I'm going to introduce you
+today to what machine learning is.
+
+3
+00:00:10,770 --> 00:00:12,180
+According to Tom Mitchell,
+
+4
+00:00:12,300 --> 00:00:15,180
+Professor of Machine Learning
+at Carnegie Mellon University
+
+5
+00:00:15,320 --> 00:00:19,080
+and one of the firsts to create
+a comprehensive definition of machine learning,
+
+6
+00:00:19,760 --> 00:00:22,640
+a computer program
+is said to learn from experience,
+
+7
+00:00:22,740 --> 00:00:26,760
+with respect to some tasks
+and a certain performance measure,
+
+8
+00:00:27,000 --> 00:00:31,140
+if its performance of these tasks
+improves with experience.
+
+9
+00:00:31,860 --> 00:00:35,860
+In other words, it is the science
+of teaching a computer algorithm
+
+10
+00:00:35,940 --> 00:00:38,950
+to collect feedback
+from previous performances
+
+11
+00:00:39,320 --> 00:00:42,060
+so that it improves its performance over time
+
+12
+00:00:42,180 --> 00:00:44,400
+with respect to a predefined objective.
+
+13
+00:00:45,240 --> 00:00:46,040
+For example,
+
+14
+00:00:46,240 --> 00:00:50,000
+a computer that learns to play checkers
+might improve its performance
+
+15
+00:00:50,100 --> 00:00:53,800
+as measured by its ability to win
+at playing checkers
+
+16
+00:00:54,170 --> 00:00:56,310
+by playing games against itself.
+
+17
+00:00:57,510 --> 00:01:00,600
+There are numerous examples
+of using machine learning in business.
+
+18
+00:01:00,800 --> 00:01:04,050
+For example,
+Amazon's recommendations are based
+
+19
+00:01:04,120 --> 00:01:07,450
+on learning from a user's previous preferences;
+
+20
+00:01:07,820 --> 00:01:12,790
+or Facebook is now able to use
+face recognition to identify faces in pictures
+
+21
+00:01:13,180 --> 00:01:15,810
+using machine learning trained on past data.
+
+22
+00:01:16,580 --> 00:01:18,520
+And those are just a couple of them.

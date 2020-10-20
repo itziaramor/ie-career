@@ -1,0 +1,45 @@
+{
+  "title": "Button",
+  "context": {
+    "buttonType": "button",
+    "buttonModifier": "btn--primary",
+    "buttonText": "TEXTO EN BOTÓN"
+  },
+  "variants": [
+    {
+      "name": "button primary icon",
+      "context": {
+        "buttonModifier": "btn--primary btn--icon",
+        "buttonType": "button",
+        "buttonText": "TEXTO EN BOTÓN",
+        "buttonIcon": "launch"
+      }
+    },
+    {
+      "name": "button secondary",
+      "context": {
+        "buttonModifier": "btn--secondary",
+        "buttonType": "button",
+        "buttonText": "TEXTO EN BOTÓN"
+      }
+    },
+    {
+      "name": "button secondary icon",
+      "context": {
+        "buttonModifier": "btn--secondary btn--icon",
+        "buttonType": "button",
+        "buttonText": "TEXTO EN BOTÓN",
+        "buttonIcon": "chevron-right"
+      }
+    },
+    {
+      "name": "button link",
+      "context": {
+        "buttonModifier": "btn--link btn--icon",
+        "buttonType": "button",
+        "buttonText": "TEXTO EN BOTÓN",
+        "buttonIcon": "chevron-right"
+      }
+    }
+  ]
+}

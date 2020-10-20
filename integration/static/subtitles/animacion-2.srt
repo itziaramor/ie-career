@@ -1,0 +1,203 @@
+1
+00:00:00,270 --> 00:00:01,030
+Hello again!
+
+2
+00:00:01,230 --> 00:00:02,970
+Let's find out more about Maria's life.
+
+3
+00:00:03,300 --> 00:00:04,072
+As you recall,
+
+4
+00:00:04,140 --> 00:00:08,600
+Maria is an Operations and Logistics Manager
+for a large producer of medical equipment
+
+5
+00:00:08,746 --> 00:00:11,980
+with distribution centers
+in the United Kingdom and Europe.
+
+6
+00:00:12,570 --> 00:00:14,900
+Every morning,
+Maria has a walk around the factory,
+
+7
+00:00:15,020 --> 00:00:16,680
+which is full of IoT technologies
+
+8
+00:00:16,800 --> 00:00:20,400
+that enable the correct performance
+and delivery of all processes.
+
+9
+00:00:21,510 --> 00:00:25,540
+The first thing that Maria does is log
+into the control panel of the operation center
+
+10
+00:00:25,680 --> 00:00:29,640
+to make sure that all of the machinery
+and processes are performing correctly.
+
+11
+00:00:30,150 --> 00:00:33,660
+This is done automatically through
+sensors that enable face recognition.
+
+12
+00:00:34,530 --> 00:00:35,620
+When she's logged in,
+
+13
+00:00:35,880 --> 00:00:38,180
+she notices there's a warning alarm
+on the main screen
+
+14
+00:00:38,340 --> 00:00:42,640
+indicating that machine number 3
+needs to be restarted as soon as possible
+
+15
+00:00:42,790 --> 00:00:45,200
+due to a malfunction in its operating system.
+
+16
+00:00:45,710 --> 00:00:48,200
+The system suggests restarting
+the machine after 9:00 pm,
+
+17
+00:00:48,400 --> 00:00:51,840
+when production levels are low
+and there's no interference with the workflow.
+
+18
+00:00:52,590 --> 00:00:53,920
+Using her corporate tablet,
+
+19
+00:00:54,050 --> 00:00:57,540
+Maria is able to decide whether to approve
+the system's recommendation,
+
+20
+00:00:57,828 --> 00:00:59,980
+set up a new time or ignore the warning.
+
+21
+00:01:00,780 --> 00:01:03,620
+The second activity Maria does
+is walk around the factory
+
+22
+00:01:03,740 --> 00:01:05,940
+talking to the different engineers
+that work there.
+
+23
+00:01:06,560 --> 00:01:08,250
+A new alarm pops up on her tablet.
+
+24
+00:01:08,790 --> 00:01:09,720
+It's a red alarm!
+
+25
+00:01:10,200 --> 00:01:13,280
+Peter, the engineer,
+approaches Maria, grabs her tablet
+
+26
+00:01:13,409 --> 00:01:16,560
+and, using a code,
+remotely enables a cool-down drill.
+
+27
+00:01:17,220 --> 00:01:19,900
+The cooling system around machine number 2
+starts to bring down
+
+28
+00:01:19,980 --> 00:01:21,690
+the engine's temperature automatically.
+
+29
+00:01:22,020 --> 00:01:23,040
+The factory is safe!
+
+30
+00:01:23,970 --> 00:01:24,820
+After this event,
+
+31
+00:01:24,960 --> 00:01:27,270
+Maria is able to keep walking around the factory.
+
+32
+00:01:27,930 --> 00:01:29,790
+Do you remember Maria's security helmet?
+
+33
+00:01:30,270 --> 00:01:34,160
+This helmet is also connected
+to the factory system via IoT.
+
+34
+00:01:34,650 --> 00:01:38,191
+This type of equipment allows organizations
+to provide safety measures
+
+35
+00:01:38,340 --> 00:01:40,620
+for all employees working
+in risky environments.
+
+36
+00:01:41,280 --> 00:01:43,139
+Nevertheless, this is not magic,
+
+37
+00:01:43,300 --> 00:01:45,290
+as some accidents cannot be predicted
+
+38
+00:01:45,480 --> 00:01:48,340
+and as the common saying goes:
+"accidents do happen!"
+
+39
+00:01:48,940 --> 00:01:51,090
+A new notification pops up in her tablet.
+
+40
+00:01:51,290 --> 00:01:53,820
+It says: "Use caution in aisle 4!"
+
+41
+00:01:54,320 --> 00:01:57,680
+Given this information,
+Maria decides to avoid aisle 4,
+
+42
+00:01:57,780 --> 00:01:59,640
+and sends a report to the security department.
+
+43
+00:02:00,390 --> 00:02:02,920
+This is a normal day in Maria's daily routine
+
+44
+00:02:03,020 --> 00:02:06,090
+with IoT solutions
+in the operations and logistics field.
+
+45
+00:02:06,510 --> 00:02:09,060
+How do you think IoT can affect other areas?
+

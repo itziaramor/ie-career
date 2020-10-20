@@ -1,0 +1,322 @@
+1
+00:00:08,120 --> 00:00:08,930
+Welcome back.
+
+2
+00:00:09,380 --> 00:00:10,493
+During this video,
+
+3
+00:00:10,640 --> 00:00:13,400
+we will learn about
+applicants tracking systems
+
+4
+00:00:13,700 --> 00:00:15,560
+and how to optimize our CVs
+
+5
+00:00:15,680 --> 00:00:19,080
+to make sure they reach
+recruiters and hiring managers sites.
+
+6
+00:00:19,850 --> 00:00:23,281
+As you may know,
+applicant tracking systems are software
+
+7
+00:00:23,420 --> 00:00:26,020
+that simplify
+the recruitment processes for companies
+
+8
+00:00:26,240 --> 00:00:28,500
+by ranking the applicants they receive
+
+9
+00:00:28,699 --> 00:00:32,000
+based on the information
+that appears in their CVs.
+
+10
+00:00:32,990 --> 00:00:37,695
+Applicant tracking systems collect
+information of all the applicants to a job
+
+11
+00:00:37,880 --> 00:00:38,834
+and compare them
+
+12
+00:00:38,900 --> 00:00:42,950
+based mainly on the keywords
+that the candidates include in their CV.
+
+13
+00:00:44,780 --> 00:00:48,565
+These keywords could reflect
+technical skills, competencies
+
+14
+00:00:48,800 --> 00:00:51,710
+or the knowledge of software
+amongst many others.
+
+15
+00:00:52,460 --> 00:00:55,793
+They will rank all the applicants
+based on the keywords
+
+16
+00:00:55,840 --> 00:00:58,820
+and provide the recruiters
+and hiring managers with a list
+
+17
+00:00:58,960 --> 00:01:01,310
+of the most suitable candidates.
+
+18
+00:01:02,490 --> 00:01:05,483
+Most top employers use this type of system
+
+19
+00:01:05,720 --> 00:01:08,640
+to simplify and speed up
+their recruitment processes
+
+20
+00:01:08,960 --> 00:01:14,120
+as they usually screen out around
+70% of the resumes they receive
+
+21
+00:01:14,200 --> 00:01:16,260
+for each position that get posted.
+
+22
+00:01:17,150 --> 00:01:21,693
+This is either because their experience
+does not reflect the desired qualifications
+
+23
+00:01:21,820 --> 00:01:25,800
+or because they are submitted in formats
+that are illegible for the system.
+
+24
+00:01:26,720 --> 00:01:29,180
+Making sure that we use the correct keywords
+
+25
+00:01:29,320 --> 00:01:33,920
+and we submit our CVs in an adequate format
+can increase our chances
+
+26
+00:01:34,000 --> 00:01:36,650
+of moving past this initial screening process.
+
+27
+00:01:38,210 --> 00:01:39,760
+Throughout this online program,
+
+28
+00:01:39,860 --> 00:01:44,810
+we have already mentioned the importance
+of tailoring our CV to each job we apply to.
+
+29
+00:01:45,620 --> 00:01:50,220
+Make sure your CV includes keywords
+relevant to the job you're applying for.
+
+30
+00:01:51,010 --> 00:01:54,230
+These keywords will be available
+not only in the job description,
+
+31
+00:01:54,470 --> 00:01:56,277
+but also in the company web page,
+
+32
+00:01:56,440 --> 00:01:59,090
+where you might be able
+to find further information
+
+33
+00:01:59,240 --> 00:02:02,410
+on what an ideal candidate
+would look like for that company.
+
+34
+00:02:04,030 --> 00:02:07,220
+Most relevant keywords
+can be used more than once
+
+35
+00:02:07,600 --> 00:02:09,512
+since the system will give you points
+
+36
+00:02:09,620 --> 00:02:12,200
+for every time these keywords
+appear on your resume.
+
+37
+00:02:12,720 --> 00:02:14,360
+But make sure you don't overuse them,
+
+38
+00:02:14,720 --> 00:02:17,680
+up to a level in which they stop making sense.
+
+39
+00:02:18,560 --> 00:02:22,845
+Make sure you start preparing
+and identifying the most relevant keywords
+
+40
+00:02:22,920 --> 00:02:25,940
+for your target sector and role
+as soon as possible.
+
+41
+00:02:26,540 --> 00:02:28,340
+Project management for consulting
+
+42
+00:02:28,470 --> 00:02:32,000
+or financial modeling for finance
+are just a couple of examples,
+
+43
+00:02:32,220 --> 00:02:35,240
+but these keywords will change
+depending on the sector
+
+44
+00:02:35,394 --> 00:02:37,510
+and even some time on the companies.
+
+45
+00:02:38,210 --> 00:02:41,078
+Companies with
+very strong corporate culture can even
+
+46
+00:02:41,160 --> 00:02:42,540
+have keywords of their own.
+
+47
+00:02:43,300 --> 00:02:47,600
+Including sector specific keywords
+in your CV could be difficult
+
+48
+00:02:47,780 --> 00:02:50,760
+if you don't have
+any professional experience in that sector.
+
+49
+00:02:51,130 --> 00:02:52,080
+But good news,
+
+50
+00:02:52,200 --> 00:02:55,530
+you can use your professional summary
+to include the keywords
+
+51
+00:02:55,680 --> 00:02:59,420
+that are relevant for the role,
+but may be difficult to incorporate
+
+52
+00:02:59,520 --> 00:03:02,500
+within your educational
+or professional experience sections.
+
+53
+00:03:03,160 --> 00:03:06,910
+Include the date in your work experience
+and education sections.
+
+54
+00:03:07,240 --> 00:03:10,520
+The system might try to filter
+by the years of experience
+
+55
+00:03:10,700 --> 00:03:12,880
+or your graduation date by reading these.
+
+56
+00:03:14,880 --> 00:03:19,300
+Make sure you use both acronyms
+and the long format version of keywords.
+
+57
+00:03:19,580 --> 00:03:23,740
+For example,
+MBA and Master in Business Administration
+
+58
+00:03:23,921 --> 00:03:26,310
+or MIM and Master In Management.
+
+59
+00:03:26,940 --> 00:03:30,480
+ATS like simple formats with traditional fonts.
+
+60
+00:03:30,960 --> 00:03:34,320
+It is easier for them to read
+through this type of CVs.
+
+61
+00:03:34,520 --> 00:03:38,100
+So, avoid using tables,
+columns or fancy graphics.
+
+62
+00:03:39,860 --> 00:03:43,060
+Make sure you use
+standard resume section headlines,
+
+63
+00:03:43,260 --> 00:03:46,220
+such as education or professional experience,
+
+64
+00:03:46,620 --> 00:03:49,740
+to make it easier for the system to identify them
+
+65
+00:03:49,840 --> 00:03:54,170
+and submit your CV in a .docx format when possible.
+
+66
+00:03:54,860 --> 00:03:57,220
+As you can see, optimizing your CV
+
+67
+00:03:57,340 --> 00:04:01,520
+through this first online screening process
+requires planning and time.
+
+68
+00:04:01,970 --> 00:04:04,280
+There are lots of online resources out there
+
+69
+00:04:04,420 --> 00:04:06,720
+that will help you prepare to beat ATS.
+
+70
+00:04:06,980 --> 00:04:09,560
+Make sure you check them out
+in the same section.
+

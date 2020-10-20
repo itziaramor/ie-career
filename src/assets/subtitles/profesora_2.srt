@@ -1,0 +1,75 @@
+1
+00:00:04,250 --> 00:00:07,760
+Why Now? We live in an era
+of data abundance.
+
+2
+00:00:08,090 --> 00:00:12,320
+Thousands of sensors around us
+are producing vast amounts of data,
+
+3
+00:00:12,890 --> 00:00:16,610
+which can serve as training sets
+for machine learning algorithms
+
+4
+00:00:17,010 --> 00:00:19,360
+and make them improve their performance faster.
+
+5
+00:00:20,180 --> 00:00:23,620
+Furthermore, the infrastructure
+required to program and run
+
+6
+00:00:23,620 --> 00:00:27,920
+the machine learning algorithms
+is becoming cheaper and largely available.
+
+7
+00:00:28,610 --> 00:00:31,220
+For example, cloud services can help running
+
+8
+00:00:31,220 --> 00:00:33,460
+large scale machine learning algorithms,
+
+9
+00:00:33,760 --> 00:00:37,580
+reducing costs and
+prohibiting resource requirements.
+
+10
+00:00:38,360 --> 00:00:42,280
+Finally, the processing capabilities
+required to run
+
+11
+00:00:42,380 --> 00:00:45,820
+large-scale machine learning
+are improving substantially.
+
+12
+00:00:46,790 --> 00:00:51,780
+Typical examples are graphic processing
+units – or GPUs – that operate
+
+13
+00:00:51,880 --> 00:00:54,910
+much faster than our normal CPUs
+in our computers,
+
+14
+00:00:55,340 --> 00:00:59,090
+speeding up the calculations required
+by machine learning algorithms.
+
+15
+00:00:59,930 --> 00:01:04,400
+All this, namely
+data storage and processing capabilities open
+
+16
+00:01:04,500 --> 00:01:06,660
+new (existing) paths for machine learning. 

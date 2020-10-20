@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e(document).width(),e(window).scroll(function(){var d=e(window).scrollTop();0<d?e(".header").addClass("fixed"):e(".header").removeClass("fixed")})});

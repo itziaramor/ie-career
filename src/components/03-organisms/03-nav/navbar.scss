@@ -1,0 +1,88 @@
+.navbar {
+    display: none;
+    
+    @include media-breakpoint-up(lg) {
+        background-color: $gray-270;
+        border-bottom: 1px solid $gray-300;
+        position: relative;
+        display: block;
+    }
+
+
+    &__list {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+
+        &-item {
+            border-color: transparent;
+            .navbar__button {
+                width: rem(71px);
+                height: rem(65px);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-top: rem(4px) solid transparent;
+                border-right: 1px solid $gray-300;
+                color: $gray-400;
+            }
+
+            &:first-child {
+                .navbar__button {
+                    border-left: 1px solid $gray-300;
+                }
+            }
+
+            &.active {
+                .navbar__button {
+                    border-top-color: var(--border-nav-color);
+                    background-color: $white;
+                    position: relative;
+                    color: $gray;
+
+                    &::after {
+                        content: '';
+                        width: 100%;
+                        height: rem(1px);
+                        background-color: $white;
+                        position: absolute;
+                        left: 0;
+                        bottom: -1px;
+                    }
+                }
+            }
+
+            &.visited {
+                .navbar__button {
+                    position: relative;
+                    color: $gray-400;
+
+                    &::after {
+                        content: '';
+                        width: rem(9px);
+                        height: rem(7px);
+                        background-image: url('../img/icons/check-visited.svg');
+                        background-repeat: no-repeat;
+                        background-size: rem(8px);
+                        position: absolute;
+                        right: rem(14px);
+                        top: rem(15px);
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    &__icon {
+        width: rem(24px);
+        height: rem(24px);
+        display: flex;
+
+        svg {
+            display: flex;
+        }
+    }
+}

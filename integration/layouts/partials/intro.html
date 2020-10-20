@@ -1,0 +1,47 @@
+<div class="page page-cover page-intro">
+    <header class="header">
+        <div class="logo-nav">
+            <div class="logo-nav__gradient"></div>
+        </div>
+    </header> <!--./header-->
+
+    <main class="page__content">
+        <div class="container">
+            <div class="page__content-cover">
+                <img src="{{ "/img/dummy/cover.png" | relURL }}" alt="">
+            </div>
+            
+            <div class="block block--intro" style="--border-color: #031282;" ie-style="--border-color: #031282;">
+                <div class="block__content">
+                    <img src="{{ "/img/logo-ie.svg" | relURL }}" alt="IE University">
+                    <h1>{{ .Site.Params.name }}</h1>
+                    <p>{{ .Site.Params.home.authorLabel }}: {{ .Site.Params.author }}</p>
+            
+                    <ul class="list">
+                        <li>{{ .Site.Params.home.timeLabel }}: {{ .Site.Params.home.time }}</li>
+                        <li>{{ .Site.Params.home.codeLabel }}: {{ .Site.Params.code | safeHTML }}</li>
+                    </ul>
+            
+                    <p class="copyright">{{ .Site.Copyright | safeHTML }}</p>
+                </div>
+            </div>
+            <!--./block .block-course-->
+
+            <div class="page__content-buttons">
+                <a href="home/" class="btn btn--primary btn--icon">
+                    {{ .Site.Params.start }}
+
+                    <span class="sr-only">Course</span>
+
+                    <span class="btn__icon">
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#chevron-right" />
+                        </svg>
+                    </span>
+                </a>
+                <!--./btn .btn-primary .btn-icon-->
+            </div>
+            <!--./page__content-buttons-->
+        </div>
+    </main>
+</div>

@@ -1,0 +1,76 @@
+// ------------------------------------------------------
+// UTILITIES
+// ------------------------------------------------------
+.container {
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: 0 rem(16px);
+  position: relative;
+
+
+  @include media-breakpoint-up(md) {
+    padding: 0 rem(30px);
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 0;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+// Display
+// ------------------------------------------------------
+%sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+
+  &-focusable:active,
+  &-focusable:focus {
+    position:static;
+    width:auto;
+    height:auto;
+    margin:0;
+    overflow:visible;
+    clip:auto;
+  }
+}
+
+.sr-only {
+  @extend %sr-only;
+}
+
+.bold {
+  font-family: $font-family-monserrat-bold;
+  font-weight: normal;
+}
+
+// lists
+.list {
+  padding-left: rem(20px);
+
+  li {
+    margin-bottom: rem(10px);
+    font-family: $font-family-base;
+    font-weight: normal;
+    font-size: rem(17px);
+    line-height: rem(29px);
+
+    ul, ol {
+      margin-top: rem(10px);
+      padding-left: rem(30px);
+    }
+  }
+
+  &--unstyled {
+    list-style: none;
+  }
+}

@@ -1,0 +1,291 @@
+1
+00:00:00,210 --> 00:00:02,340
+La influencia del IoT está en todas partes,
+
+2
+00:00:02,440 --> 00:00:04,740
+podemos observar sus efectos
+en cada aspecto de nuestras vidas.
+
+3
+00:00:05,220 --> 00:00:08,580
+Es una extensa red de dispositivos
+interconectados que comparten datos
+
+4
+00:00:08,660 --> 00:00:11,280
+para hacer que nuestra vida diaria
+sea lo más conveniente posible. 
+
+5
+00:00:12,000 --> 00:00:13,560
+Tomemos el ejemplo de María.
+
+6
+00:00:13,920 --> 00:00:16,507
+María es una profesional de 32 años
+que vive en Londres
+
+7
+00:00:16,600 --> 00:00:19,140
+y reside en un edificio interactivo
+en la calle Liverpool.
+
+8
+00:00:19,620 --> 00:00:22,266
+Trabaja como gerente
+de una gran empresa de logística
+
+9
+00:00:22,360 --> 00:00:26,040
+encargada de transportar equipos médicos
+a través del Reino Unido y Europa.
+
+10
+00:00:26,480 --> 00:00:29,240
+Su objetivo es mantener
+el máximo rendimiento del proceso logístico.
+
+11
+00:00:29,910 --> 00:00:31,580
+La agenda de María es muy apretada,
+
+12
+00:00:31,669 --> 00:00:35,580
+pero gracias al IoT, puede llegar a tiempo
+a su trabajo todas las mañanas.
+
+13
+00:00:36,300 --> 00:00:38,520
+Hablemos sobre la rutina diaria de María.
+
+14
+00:00:39,220 --> 00:00:42,420
+El despertador de María está programado
+para las 7:00 am todas las mañanas.
+
+15
+00:00:42,900 --> 00:00:44,880
+Para ayudarla a salir de la cama y comenzar el día,
+
+16
+00:00:45,000 --> 00:00:47,860
+las persianas de las ventanas
+se han subido automáticamente,
+
+17
+00:00:47,960 --> 00:00:51,780
+mientras el agua caliente llena la bañera
+para tomar un agradable baño caliente,
+
+18
+00:00:51,882 --> 00:00:55,080
+gracias a la integración entre
+su reloj inteligente y su casa inteligente.
+
+19
+00:00:56,020 --> 00:00:58,420
+A las 7:05 am se levanta de la cama,
+
+20
+00:00:58,500 --> 00:01:00,700
+va al lavabo y toma un baño rápido
+
+21
+00:01:00,760 --> 00:01:02,910
+para despertarse
+y comenzar el día llena de energía.
+
+22
+00:01:03,560 --> 00:01:07,200
+Mientras se ducha,
+su Alexa le da un informe completo del clima,
+
+23
+00:01:07,340 --> 00:01:10,245
+le sugiere una ruta basada
+en las condiciones actuales del tráfico
+
+24
+00:01:10,460 --> 00:01:12,630
+y le presenta un rápido resumen
+de su agenda del día.
+
+25
+00:01:13,440 --> 00:01:15,260
+Sin salir de la ducha,
+
+26
+00:01:15,340 --> 00:01:18,440
+los dispositivos conectados
+en la cocina empiezan a prepararlo todo
+
+27
+00:01:18,520 --> 00:01:19,590
+para su rutina de desayuno.
+
+28
+00:01:20,080 --> 00:01:23,880
+A las 7:07, su máquina de café le prepara
+un expreso con leche caliente.
+
+29
+00:01:24,300 --> 00:01:25,760
+Hoy se siente muy cansada,
+
+30
+00:01:25,840 --> 00:01:28,600
+así que, gracias a la aplicación
+de seguimiento del sueño de su smartphone,
+
+31
+00:01:28,680 --> 00:01:29,970
+recibe una dosis extra de café.
+
+32
+00:01:30,870 --> 00:01:34,590
+A las 7:15 sale de la ducha y se dirige a su armario.
+
+33
+00:01:35,160 --> 00:01:38,300
+Allí, su espejo inteligente
+le sugiere varios atuendos
+
+34
+00:01:38,400 --> 00:01:40,460
+en función de las diferentes actividades del día.
+
+35
+00:01:40,830 --> 00:01:44,200
+Se viste y, después desayunar,
+está lista para salir a trabajar.
+
+36
+00:01:44,860 --> 00:01:45,300
+¡Ups!
+
+37
+00:01:45,420 --> 00:01:47,310
+Olvidó apagar las luces de su apartamento,
+
+38
+00:01:47,510 --> 00:01:50,100
+pero gracias a los sensores,
+se apagan automáticamente.
+
+39
+00:01:51,210 --> 00:01:54,080
+En su camino al trabajo,
+el IoT está en todas partes:
+
+40
+00:01:54,390 --> 00:01:58,620
+sistemas de riego inteligentes,
+fábricas inteligentes, deportes inteligentes…
+
+41
+00:01:58,760 --> 00:02:00,420
+todo basado en datos.
+
+42
+00:02:00,890 --> 00:02:02,640
+Llega al trabajo a las 8:00 am.
+
+43
+00:02:03,090 --> 00:02:05,540
+Sale de su coche y, al acercarse al edificio,
+
+44
+00:02:05,700 --> 00:02:08,880
+las puertas se abren automáticamente
+gracias al reconocimiento facial.
+
+45
+00:02:09,630 --> 00:02:13,620
+Su primera reunión comienza a las 8:10 am,
+así que mientras está en el ascensor,
+
+46
+00:02:13,780 --> 00:02:16,340
+comprueba la disponibilidad de salas
+en la aplicación corporativa,
+
+47
+00:02:16,400 --> 00:02:17,580
+que usa datos en tiempo real.
+
+48
+00:02:17,940 --> 00:02:21,340
+La sala ajusta la iluminación y la temperatura
+basándose en el calor corporal.
+
+49
+00:02:22,020 --> 00:02:25,380
+El internet de las cosas también
+está presente en la vida personal de María.
+
+50
+00:02:26,010 --> 00:02:28,920
+Mientras ella estaba en el trabajo,
+lamentablemente, su padre tuvo una caída.
+
+51
+00:02:29,310 --> 00:02:31,940
+Inmediatamente, María recibió
+una notificación en su smartphone,
+
+52
+00:02:32,040 --> 00:02:34,100
+que está conectado
+al reloj inteligente de su padre
+
+53
+00:02:34,182 --> 00:02:37,890
+a través de una aplicación que notifica
+a los familiares cercanos en caso de accidentes.
+
+54
+00:02:38,640 --> 00:02:41,790
+María llamó a una ambulancia y,
+cuando llegaron los paramédicos,
+
+55
+00:02:42,000 --> 00:02:45,620
+pudo abrir la puerta de su padre a distancia
+para que pudieran acceder a la casa. 
+
+56
+00:02:45,820 --> 00:02:47,040
+Su padre ya está bien.
+
+57
+00:02:48,220 --> 00:02:50,420
+La rutina diaria de María va de 8:00 a 5:00,
+
+58
+00:02:50,580 --> 00:02:52,480
+así que para cuando vuelve a casa del trabajo,
+
+59
+00:02:52,660 --> 00:02:55,500
+las tecnologías IoT
+ya han puesto el aire acondicionado
+
+60
+00:02:55,700 --> 00:02:57,780
+y, basado su ubicación y hora actual,
+
+61
+00:02:57,860 --> 00:03:00,460
+su televisor inteligente está configurado
+para ver su programa favorito.
+
+62
+00:03:00,840 --> 00:03:03,540
+La vida de María ha mejorado
+significativamente gracias al IoT.
+
+63
+00:03:05,130 --> 00:03:07,440
+Como puedes ver, ¡el IoT está en todas partes!
+

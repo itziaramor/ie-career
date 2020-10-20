@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="6px" viewBox="0 0 8 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Check</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04.-Check/Checkbox/Checked/With-Description" transform="translate(-4.000000, -9.000000)" fill="#FFFFFF">
+            <g id="Checkbox" transform="translate(0.000000, 1.000000)">
+                <g id="Check" transform="translate(0.000000, 3.000000)">
+                    <path d="M6.65183265,10.8942434 L4.10636422,8.33133321 C3.96454526,8.1903244 3.96454526,7.96081005 4.10636422,7.81830114 L4.62054884,7.30601913 C4.76236779,7.16501031 4.99291451,7.16501031 5.13473346,7.30601913 L6.9092886,9.10013126 L10.8649465,5.10613163 C11.0067655,4.96512282 11.2373122,4.96512282 11.3791312,5.10613163 L11.8933158,5.6191637 C12.0351347,5.76017251 12.0351347,5.9904369 11.8933158,6.13069567 L7.16601727,10.8942434 C7.02419831,11.0352522 6.7936516,11.0352522 6.65183265,10.8942434"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

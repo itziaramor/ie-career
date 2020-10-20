@@ -1,0 +1,1228 @@
+{{ define "main" }} 
+<div class="page page-cover" id="pager">
+    <header class="header">
+        <div class="logo-nav">
+            <div class="logo-nav__gradient"></div>
+        
+            <a class="logo-nav__logo" target="_blank" href="{{ .Page.Params.PAGE_LOGO_LINK | relURL }}">
+                <img src="{{ "/img/logo-ie.svg" | relURL }}" alt="IE University">
+            </a>
+        </div>
+    </header> <!--./header-->
+
+    
+    <main class="page__content">
+        <div class="container">
+            <div class="page__content-cover">
+                <img src="{{ "/img/dummy/cover.png" | relURL }}" alt="">
+            </div>
+            
+            <div class="block block--course" style="--border-color: #031282;" ie-style="--border-color: #031282;">
+                <div class="block__content">
+                    <h1>{{ .Page.Params.SECTION_TITLE }}</h1>
+                    <p>{{ .Page.Params.SECTION_AUTHORS }}</p>
+
+                    <a href="{{ .Page.Params.SECTION_AUTHORS_LINK | relURL }}" class="btn btn--link btn--icon">
+                        {{ .Page.Params.SECTION_AUTHORS_LINK_TEXT }}
+
+                        <span class="btn__icon">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#chevron-right" />
+                            </svg>
+                        </span>
+                    </a>
+
+                    <div class="progress-bar">
+                        <p class="progress-bar__text"><strong>0%</strong> {{ .Page.Params.PAGE_PROGRESSBAR }}</p>
+                        <progress max="100" value="0"></progress>
+                    </div>
+                    <!--progress-bar-->
+                </div>
+            </div>
+            <!--./block .block-course-->
+
+            <div class="page__content-buttons">
+                <a href="#" class="btn btn--primary btn--icon btn-unit">
+
+                    <span class="btn__text">{{ .Page.Params.PAGE_BUTTON_NEXT_TEXT }}</span> 
+                    <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_NEXT_TEXT_AA }}</span>
+
+                    <span class="btn__icon">
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#arrow-rounded-right" />
+                        </svg>
+                    </span>
+                </a>
+                <!--./btn .btn-primary .btn-icon-->
+            </div>
+            <!--./page__content-buttons-->
+
+            <div class="page__content-header">
+                <h2 class="page__content-heading">
+                    <span>
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#rocket" />
+                        </svg>
+                    </span>
+
+                    {{ .Page.Params.SECTION_1_TITLE_1 }}
+                </h2>
+
+                <a href="#" class="btn btn--link btn--icon js-expand-all">
+                    <span class="btn-text">{{ .Page.Params.SECTION_1_BUTTON_1 }}</span>
+
+                    <span class="btn__icon">
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#arrows" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+            <!--./page__header-->
+
+            <div class="block block--accordion accordion accordion-introduction" style="--border-color: #0097DC;" ie-style="--border-color: #0097DC;">
+                <div class="accordion__header">
+                    <h3 class="accordion__header-title">
+                        <a href="{{ .Page.Params.SECTION_1_MODULE_0_LINK_0 | relURL }}" class="btn btn--link-double btn--icon">
+                            <span class="btn__icon btn__icon--left">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+    
+                            {{ .Page.Params.SECTION_1_MODULE_0 }}
+    
+                            <span class="btn__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#arrow-right" />
+                                </svg>
+                            </span>
+                        </a>
+                        <!--./btn-link-double .btn-icon-->
+                    </h3>
+
+                    <a href="#" class="accordion__button">
+                        <span class="accordion__button-text">{{ .Page.Params.SECTION_1_BUTTON_2 }}</span>
+
+                        <span class="accordion__button-icon">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#arrows" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="accordion__body open" aria-expanded="true">
+                    <p>{{ .Page.Params.SECTION_1_MODULE_0_TEXT }}</p>
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_0_SUBMODULE_1 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_0_SUBMODULE_1_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_0_SUBMODULE_1_UNIT_1_DATA }}" data-unit="{{ .Page.Params.SECTION_1_MODULE_0_SUBMODULE_1_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_0_SUBMODULE_1_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+                </div>
+            </div>
+            <!--./block .block-accordion-->
+
+            <div class="block block--accordion block--1 accordion" style="--border-color: #BA43BB;" ie-style="--border-color: #BA43BB;">
+                <div class="accordion__header">
+                    <h3 class="accordion__header-title">
+                        <a href="{{ .Page.Params.SECTION_1_MODULE_1_LINK_0 | relURL }}" class="btn btn--link-double btn--icon">
+                            <span class="btn__icon btn__icon--left">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+    
+                            {{ .Page.Params.SECTION_1_MODULE_1 }}
+    
+                            <span class="btn__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#arrow-right" />
+                                </svg>
+                            </span>
+                        </a>
+                        <!--./btn-link-double .btn-icon-->
+                    </h3>
+
+                    <a href="#" class="accordion__button">
+                        <span class="accordion__button-text">{{ .Page.Params.SECTION_1_BUTTON_2 }}</span>
+
+                        <span class="accordion__button-icon">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#arrows" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="accordion__body" aria-expanded="false">
+                    <p>{{ .Page.Params.SECTION_1_MODULE_1_TEXT }}</p>
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_1 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_1_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_1_UNIT_1_DATA }}" data-unit="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_1_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_1_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_1_UNIT_2_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_1_UNIT_2_DATA }}" data-unit="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_1_UNIT_2_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#pdf" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_1_UNIT_2 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2_UNIT_1_DATA }}" data-unit="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2_UNIT_2_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2_UNIT_2_DATA }}" data-unit="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2_UNIT_2_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#pdf" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2_UNIT_2 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2_UNIT_3_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2_UNIT_3_DATA }}" data-unit="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2_UNIT_3_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#pdf" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_2_UNIT_3 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_3 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_3_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_3_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_3_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_3_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_4 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_4_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_4_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_4_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#pdf" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_4_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+
+                            <li class="accordion__list-item ">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_4_UNIT_2_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_4_UNIT_2_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_4_UNIT_2_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#pdf" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_1_SUBMODULE_4_UNIT_2 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+                </div>
+            </div>
+            <!--./block .block-accordion-->
+
+            <div class="block block--accordion accordion" style="--border-color: #C64F3D;" ie-style="--border-color: #C64F3D;">
+                <div class="accordion__header">
+                    <h3 class="accordion__header-title">
+                        <a href="{{ .Page.Params.SECTION_1_MODULE_2_LINK_0 | relURL }}" class="btn btn--link-double btn--icon">
+                            <span class="btn__icon btn__icon--left">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+    
+                            {{ .Page.Params.SECTION_1_MODULE_2 }}
+    
+                            <span class="btn__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#arrow-right" />
+                                </svg>
+                            </span>
+                        </a>
+                        <!--./btn-link-double .btn-icon-->
+                    </h3>
+
+                    <a href="#" class="accordion__button">
+                        <span class="accordion__button-text">{{ .Page.Params.SECTION_1_BUTTON_2 }}</span>
+
+                        <span class="accordion__button-icon">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#arrows" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="accordion__body" aria-expanded="false">
+                    <p>{{ .Page.Params.SECTION_1_MODULE_2_TEXT }}</p>
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_1 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_1_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_1_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_1_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_1_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_2_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_2_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_2_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_2 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_3_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_3_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_3_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_3 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_4_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_4_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_4_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_2_UNIT_4 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_3 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_3_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_3_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_3_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_3_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_4 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_4_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_4_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_4_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_2_SUBMODULE_4_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+                </div>
+            </div>
+            <!--./block .block-accordion-->
+
+            <div class="block block--accordion accordion" style="--border-color: #3D8979;" ie-style="--border-color: #3D8979;">
+                <div class="accordion__header">
+                    <h3 class="accordion__header-title">
+                        <a href="{{ .Page.Params.SECTION_1_MODULE_3_LINK_0 | relURL }}" class="btn btn--link-double btn--icon">
+                            <span class="btn__icon btn__icon--left">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+    
+                            {{ .Page.Params.SECTION_1_MODULE_3 }}
+    
+                            <span class="btn__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#arrow-right" />
+                                </svg>
+                            </span>
+                        </a>
+                        <!--./btn-link-double .btn-icon-->
+                    </h3>
+
+                    <a href="#" class="accordion__button">
+                        <span class="accordion__button-text">{{ .Page.Params.SECTION_1_BUTTON_2 }}</span>
+
+                        <span class="accordion__button-icon">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#arrows" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="accordion__body" aria-expanded="false">
+                    <p>{{ .Page.Params.SECTION_1_MODULE_3_TEXT }}</p>
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_1 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_1_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_1_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_1_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_1_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_2 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_2_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_2_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_2_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_2_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_3 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_3_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_3_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_3_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_3_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_4 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_4_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_4_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_4_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_4_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_4_UNIT_2_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_4_UNIT_2_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_4_UNIT_2_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#pdf" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_4_UNIT_2 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_5 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_5_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_5_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_5_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_5_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_6 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="#" class="btn btn--link-double btn--icon btn-quiz" data-id="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_6_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_6_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#cup" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_3_SUBMODULE_6_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+                </div>
+            </div>
+            <!--./block .block-accordion-->
+
+            <div class="block block--accordion accordion" style="--border-color: #555555;" ie-style="--border-color: #555555;">
+                <div class="accordion__header">
+                    <h3 class="accordion__header-title">
+                        <a href="{{ .Page.Params.SECTION_1_MODULE_4_LINK_0 | relURL }}" class="btn btn--link-double btn--icon">
+                            <span class="btn__icon btn__icon--left">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+    
+                            {{ .Page.Params.SECTION_1_MODULE_4 }}
+    
+                            <span class="btn__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#arrow-right" />
+                                </svg>
+                            </span>
+                        </a>
+                        <!--./btn-link-double .btn-icon-->
+                    </h3>
+
+                    <a href="#" class="accordion__button">
+                        <span class="accordion__button-text">{{ .Page.Params.SECTION_1_BUTTON_2 }}</span>
+
+                        <span class="accordion__button-icon">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#arrows" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="accordion__body" aria-expanded="false">
+                    <p>{{ .Page.Params.SECTION_1_MODULE_4_TEXT }}</p>
+
+                    <div class="accordion__unit">
+                        <h4 class="accordion__subtitle">
+                            <span class="accordion__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#check" />
+                                </svg>
+                            </span>
+
+                            {{ .Page.Params.SECTION_1_MODULE_4_SUBMODULE_1 }}
+                        </h4>
+                        <!--./accordion__subtitle-->
+
+                        <ul class="list list--unstyled accordion__list">
+                            <li class="accordion__list-item">
+                                <span class="accordion__icon">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#check" />
+                                    </svg>
+                                </span>
+                                <!--./accordion__icon-->
+                                <a href="{{ .Page.Params.SECTION_1_MODULE_4_SUBMODULE_1_UNIT_1_LINK | relURL }}" class="btn btn--link-double btn--icon" data-id="{{ .Page.Params.SECTION_1_MODULE_4_SUBMODULE_1_UNIT_1_DATA }}"
+                                data-unit="{{ .Page.Params.SECTION_1_MODULE_4_SUBMODULE_1_UNIT_1_LINK }}">
+                                    <span class="btn__icon btn__icon--left">
+                                        <svg role="presentation" aria-hidden="true" focusable="false">
+                                            <use xlink:href="/img/sprite.svg#video" />
+                                        </svg>
+                                    </span>
+
+                                    <span class="btn__flex">
+                                        {{ .Page.Params.SECTION_1_MODULE_4_SUBMODULE_1_UNIT_1 }}
+
+                                        <span class="btn__icon">
+                                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                                <use xlink:href="/img/sprite.svg#arrow-right" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                                <!--./btn-link-double .btn-icon-->
+                            </li>
+                            <!--./accordion__list-item-->
+                        </ul>
+                    </div>
+                    <!--./accordion__unit-->
+                </div>
+            </div>
+            <!--./block .block-accordion-->
+
+            <div class="page__content-buttons">
+                <a href="#" class="btn btn--primary btn--icon btn-unit">
+                    <span class="btn__text">{{ .Page.Params.PAGE_BUTTON_NEXT_TEXT }}</span> 
+                    <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_NEXT_TEXT_AA }}</span>
+
+                    <span class="btn__icon">
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#arrow-rounded-right" />
+                        </svg>
+                    </span>
+                </a>
+                <!--./btn .btn-primary .btn-icon-->
+            </div>
+            <!--./page__content-buttons-->
+        </div>
+    </main>
+</div>
+{{ end }}

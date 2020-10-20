@@ -1,0 +1,169 @@
+// ----------------------------------------------------------------------
+// VARIABLES
+// ----------------------------------------------------------------------
+
+
+// Color system
+// ----------------------------------------------------------------------
+  $white:     #ffffff;
+  $gray-500:  #dddcdc;
+  $black:     #000000;
+  $blue:      #031282;
+  $blue-100:  #0097DC; // no AA
+  $blue-200:  #6056F2;
+  $gray:      #555555;
+  $gray-600:  #585858;
+  $gray-border: #EDEDED;
+  $gray-100:  #F3F3F3;
+  $gray-200:  #F3F6F7;
+  $gray-250:  #FBFBFB;
+  $gray-270:  #F9FAFB;
+  $gray-300:  #D2D2D2;
+  $gray-400:  #979797;
+  $green:     #3D8979;
+  $green-100: #13B82B; // no AA
+  $red:       #D32E58;
+  $ocher:     #C64F3D;
+  $violet:    #BA43BB;
+  $violet-100:#A239B5; // visited 
+
+  $primary:          $blue;
+  $secondary:        $black;
+  // $primary-hover:    $pink-400;
+  // $secondary-hover:  $gray-200;
+
+
+// Body
+// ----------------------------------------------------------------------
+// Settings for the `<body>` element.
+  $body-bg:                   $white;
+  $body-color:                $gray;
+
+
+// Links
+// ----------------------------------------------------------------------
+// Style anchor elements.
+  $link-color:                              $gray;
+  $link-decoration:                         none;
+  $link-hover-color:                        darken($link-color, 15%);
+  $link-hover-decoration:                   underline;
+
+
+// Paragraphs
+// ----------------------------------------------------------------------
+// Style p element.
+  $paragraph-margin-bottom:   1.5rem;
+
+
+// Grid settings
+// ------------------------------------------------------------------
+$grid-cols: (
+  cols: 12,
+  gutter-sm: 26,
+  gutter-md: 50,
+  gutter-lg: 30,
+);
+
+$grid-container-max-widths: (
+  sm: 540,
+  md: 720,
+  lg: 940,
+  xl: 1120,
+);
+
+$grid-breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 960px,
+  xl: 1200px,
+);
+
+$grid: map-merge($grid-container-max-widths, $grid-cols);
+
+$container-max-width:   1002px;
+$grid-columns:          4;
+$grid-gutter-width:     30px;
+
+
+// Typography
+// ----------------------------------------------------------------------
+$font-family-monserrat-bold:       "Montserrat-Bold", Arial, sans-serif;
+$font-family-monserrat-semibold:   "Montserrat-SemiBold", Arial, sans-serif;
+$font-family-monserrat-medium:     "Montserrat-Medium", Arial, sans-serif;
+$font-family-monserrat-regular:    "Montserrat-Regular", Arial, sans-serif;
+$font-family-ptserif-regular:      "PTSerif-Regular", Arial, sans-serif;
+$font-family-ptserif-bold:         "PTSerif-Bold", Arial, sans-serif;
+$font-family-base:                 $font-family-ptserif-regular;
+$font-family-monospace:            'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !default;
+
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            600;
+
+$font-weight-bolder:          $font-weight-bold;
+$font-weight-base:            $font-weight-light;
+
+$line-height-base:            1.9;
+
+$headings-font-family:        $font-family-monserrat-bold;
+$headings-font-weight:        600;
+$headings-line-height:        29px;
+$headings-color:              $body-color;
+
+
+
+// Border
+// ----------------------------------------------------------------------
+$border-radius-base:          5px;
+$border-color-base:           #e2e5ed;
+
+
+// Form
+// ----------------------------------------------------------------------
+// $input-height:                2.625rem;
+// $input-border-color:          $border-color-base;
+// $input-border-radius:         0;
+// $input-color:                 $gray-400;
+// $label-color:                 $gray-400;
+$label-margin-bottom:         .5rem;
+
+
+// Button
+// ----------------------------------------------------------------------
+$btn-height: 54px;
+$btn-padding-x: 32px;
+$btn-padding-y: 15px;
+$btn-margin-left: 25px;
+
+$btn-menu-width: 75px;
+$btn-menu-height: 54px;
+
+
+// Close button
+// ----------------------------------------------------------------------
+$close-padding:   4px;
+
+// Zindex
+// ----------------------------------------------------------------------
+$zindex-modal:    1100;
+$zindex-close:    1110;
+$zindex-navbar:   1000;
+
+
+// Animation
+// ----------------------------------------------------------------------
+$ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
+$ease-in:     cubic-bezier(0.55, 0.055, 0.675, 0.19);
+$ease-out:    cubic-bezier(0.215, 0.61, 0.355, 1);
+
+
+// Tooltip
+// ----------------------------------------------------------------------
+// $tooltip-triangle-size: 10px;
+
+
+// Site footer
+// ----------------------------------------------------------------------
+// $site-footer-height: 95px;

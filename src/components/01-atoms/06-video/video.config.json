@@ -1,0 +1,15 @@
+{
+  "title": "Video",
+  "context": {
+    "videoId": "defaultVideo",
+    "videoWrapperModifier": "video-wrapper--video",
+    "videoSource": "http://media.ie.edu/multimedia/machine-learning/profesora_2.mp4",
+    "videoAttributes": "",
+    "videoCover": "/img/videos/the-origins.jpg",
+    "videoCoverAlt": "",
+    "videoButtonPlayText": "Play video",
+    "videoShow": true,
+    "videoCaption": true,
+    "captionText": "Video caption text"
+  }
+}

@@ -1,0 +1,58 @@
+// ------------------------------------------------------
+  // TYPE
+  // ------------------------------------------------------
+  body *:focus {
+    outline: 1px solid #031282;
+    outline-offset: 2px;
+    text-decoration: none;
+  }
+  body *:focus-visible {
+  }
+
+  // Headings
+  // ------------------------------------------------------
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: rem(16px);
+    font-family: $headings-font-family;
+    line-height: $headings-line-height;
+    color: $headings-color;
+  }
+
+  h1 { 
+    font-size: rem(26px);
+    text-transform: uppercase;
+
+    @include media-breakpoint-up(sm) {
+      font-size: rem(36px);
+    }
+  }
+
+  h2 {
+    font-size: rem(32px);
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-family: $font-family-monserrat-semibold;
+    font-size: rem(22px);
+    text-transform: uppercase;
+  }
+
+  h4, h5 {
+    font-family: $font-family-monserrat-semibold;
+    font-size: rem(17px);
+  }
+
+  p {
+    font-family: $font-family-base;
+    font-size: rem(17px);
+    line-height: rem(29px);
+  }
+
+
+  // Emphasis
+  // ------------------------------------------------------
+  small,
+  .small {
+    font-size: 80%;
+  }

@@ -1,0 +1,32 @@
+1
+00:00:00,210 --> 00:00:02,430
+¿Qué es la interoperabilidad del IoT?
+
+2
+00:00:02,850 --> 00:00:05,740
+Es la capacidad de los dispositivos,
+plataformas o protocolos de IoT
+
+3
+00:00:05,860 --> 00:00:08,250
+para comunicarse
+y compartir servicios entre sí.
+
+4
+00:00:08,700 --> 00:00:11,160
+En el IoT, el mercado está muy fragmentado.
+
+5
+00:00:11,360 --> 00:00:12,720
+Debido a esta fragmentación,
+
+6
+00:00:12,840 --> 00:00:16,946
+así como a la disponibilidad y el uso continuo
+de equipos antiguos o heredados,
+
+7
+00:00:17,080 --> 00:00:21,720
+es común que las soluciones de IoT no puedan
+interactuar entre sí o conectarse fácilmente.
+

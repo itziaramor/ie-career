@@ -1,0 +1,15 @@
+1
+00:00:00,480 --> 00:00:02,900
+La señalización digital
+y los espejos inteligentes ajustan
+
+2
+00:00:02,980 --> 00:00:04,820
+el contenido en función
+del perfil del visitante,
+
+3
+00:00:05,026 --> 00:00:07,320
+las condiciones meteorológicas
+y otras circunstancias.
+

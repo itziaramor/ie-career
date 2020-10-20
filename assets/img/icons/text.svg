@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <g id="01-Previa" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Estilos" transform="translate(-609.000000, -1100.000000)">
+            <g id="Group-5" transform="translate(609.000000, 1100.000000)">
+                <g id="Frame_-_24px">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                </g>
+                <rect id="Rectangle" fill="#555555" fill-rule="nonzero" x="2" y="3" width="20" height="2"></rect>
+                <rect id="Rectangle" fill="#555555" fill-rule="nonzero" x="2" y="7" width="20" height="2"></rect>
+                <rect id="Rectangle" fill="#555555" fill-rule="nonzero" x="2" y="11" width="20" height="2"></rect>
+                <rect id="Rectangle" fill="#555555" fill-rule="nonzero" x="2" y="15" width="20" height="2"></rect>
+                <rect id="Rectangle" fill="#555555" fill-rule="nonzero" x="2" y="19" width="14" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

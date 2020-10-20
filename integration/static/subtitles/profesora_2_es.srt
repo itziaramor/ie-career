@@ -1,0 +1,78 @@
+1
+00:00:04,250 --> 00:00:07,760
+¿Por qué ahora? Vivimos en una era
+de abundancia de datos.
+
+2
+00:00:08,090 --> 00:00:12,320
+Miles de sensores a nuestro alrededor
+producen vastas cantidades de datos,
+
+3
+00:00:12,890 --> 00:00:16,610
+lo que puede servir de base para el entrenamiento
+de los algoritmos de aprendizaje profundo
+
+4
+00:00:17,010 --> 00:00:19,360
+y ayudarlos a mejorar
+su desempeño rápidamente.
+
+5
+00:00:20,180 --> 00:00:23,620
+Asimismo, la infraestructura requerida
+para programar y ejecutar
+
+6
+00:00:23,620 --> 00:00:27,920
+los algoritmos de machine learning
+es cada vez más barata y, en gran parte, accesible.
+
+7
+00:00:28,610 --> 00:00:31,220
+Por ejemplo, los servicios en la nube
+pueden ayudar a ejecutar
+
+8
+00:00:31,220 --> 00:00:33,460
+algoritmos de machine learning
+a gran escala,
+
+9
+00:00:33,760 --> 00:00:37,580
+para así reducir los costos
+y limitar los recursos necesarios.
+
+10
+00:00:38,360 --> 00:00:42,280
+Por último, la capacidad de procesamiento
+requerida para ejecutar
+
+11
+00:00:42,380 --> 00:00:45,820
+el machine learning a gran escala
+ha mejorado considerablemente.
+
+12
+00:00:46,790 --> 00:00:51,780
+Un ejemplo típico son las unidades
+de procesamiento gráfico, o GPU, que operan
+
+13
+00:00:51,880 --> 00:00:54,910
+mucho más rápido que las CPU instaladas
+habitualmente en nuestros ordenadores
+
+14
+00:00:55,340 --> 00:00:59,090
+y que agilizan los cálculos requeridos
+por los algoritmos de machine learning.
+
+15
+00:00:59,930 --> 00:01:04,400
+Todo esto, y principalmente las capacidades
+de almacenamiento y procesamiento de datos, abre
+
+16
+00:01:04,500 --> 00:01:06,660
+nuevos caminos para el machine learning.

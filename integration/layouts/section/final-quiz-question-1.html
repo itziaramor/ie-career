@@ -1,0 +1,237 @@
+{{ define "main" }} 
+<div class="page page-unit page-quiz page-quiz-1" data-question="1" data-unit="{{ .Page.Params.NAVBAR_UNIT_LINK }}">
+    <header class="header">
+        <div class="logo-nav">
+            <div class="logo-nav__gradient"></div>
+        
+           <a class="logo-nav__logo" href="{{ .Page.Params.PAGE_LOGO_LINK | relURL }}">
+                <img src="{{ "/img/logo-ie.svg" | relURL }}" alt="IE University">
+            </a>
+        </div>
+        
+        <div class="breadcrumbs">
+            <ul>
+                <li class="breadcrumbs__home">
+                    <a href="{{ .Page.Params.BREADCRUMBS_HOME_LINK | relURL }}">
+                        <span class="breadcrumbs__icon">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#home" />
+                            </svg>
+                        </span>
+                        <span class="breadcrumbs__text"><span class="sr-only"> {{ .Page.Params.BREADCRUMBS_HOME_SRONLY }}</span> {{ .Page.Params.BREADCRUMBS_HOME }}</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ .Page.Params.BREADCRUMBS_MODULE_LINK | relURL }}">{{ .Page.Params.BREADCRUMBS_MODULE }}</a>
+                </li>
+                <li>
+                    {{ .Page.Params.BREADCRUMBS_PAGE }}
+                </li>
+            </ul>
+        </div>
+        <!--./breadcrumbs-->
+
+        <nav class="navbar">
+            <div class="container">
+                <ul class="navbar__list">
+                    <li class="navbar__list-item active">
+                        <span href="{{ .Page.Params.NAVBAR_UNIT_LINK | relURL }}" class="navbar__button" data-id="{{ .Page.Params.NAVBAR_UNIT_LINK_ID_1 }}" data-id="{{ .Page.Params.NAVBAR_UNIT_LINK_ID_1 }}" style="--border-nav-color: #3D8979;" ie-style="--border-nav-color: #3D8979;">
+                            <span class="navbar__icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#cup" />
+                                </svg>
+                            </span>
+                            <span class="sr-only">{{ .Page.Params.NAVBAR_UNIT }}</span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </nav> <!--./navbar-->
+
+        <ul class="header__buttons">
+            <li>
+                <a href="{{ .Page.Params.PAGE_BUTTON_BACK | relURL }}">
+                    <span class="header__buttons-icon">
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#chevron-left" />
+                        </svg>
+                    </span>
+                    {{ .Page.Params.PAGE_BUTTON_BACK_TEXT }} <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_BACK_TEXT_AA }}</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ .Page.Params.PAGE_BUTTON_NEXT | relURL }}">
+                    {{ .Page.Params.PAGE_BUTTON_NEXT_TEXT }} <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_NEXT_TEXT_AA }}</span>
+                    <span class="header__buttons-icon">
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#chevron-right" />
+                        </svg>
+                    </span>
+                </a>
+            </li>
+        </ul>  <!--./header__buttons-->
+    </header> <!--./header-->
+
+
+    <main class="page__content">
+        <div class="container">
+
+            <div class="block block--unit-header" ie-style="--border-color: transparent;">
+                <div class="block__content">
+                    <p class="block__subtitle">{{ .Page.Params.QUIZ_SUBTITLE }}</p>
+                    <h1 class="block__title">
+                        {{ .Page.Params.QUIZ_TITLE }}
+                    </h1>
+
+                    <p>{{ .Page.Params.QUIZ_TEXT }}</p>
+
+                    <p class="block__check">
+                        <span class="block__check-icon">
+                            <svg role="presentation" aria-hidden="true" focusable="false">
+                                <use xlink:href="/img/sprite.svg#check" />
+                            </svg>
+                        </span>
+
+                        {{ .Page.Params.QUIZ_NOTICE }}
+                    </p>
+                </div>
+            </div>
+            <!--./block .block-unit-header-->
+
+            <div class="block block--quiz" style="--border-color: #3D8979;" ie-style="--border-color: #3D8979;">
+                <div class="block__content">
+                    <h2 class="block__title">{{ .Page.Params.QUIZ_QUESTION }}</h2>
+
+                    <div class="block__question">
+                        <div class="block__checkbox">
+                            <div class="form-control__checkbox">
+                                <label class="container">
+                                    {{ .Page.Params.QUIZ_ANSWER_1 }}
+                                    <input type="checkbox" name="question" id="q1-option1" data-val="{{ .Page.Params.QUIZ_VAL_1 }}">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <!--form-control__checkbox-->
+                            <p class="block__question-feedback js-feedback" style="display: none;">
+                                <span class="feedback">
+                                    <img src="{{ .Page.Params.QUIZ_FEEDBACK_ICON_1   | relURL }}" alt="">
+                                </span>
+                                <strong>{{ .Page.Params.QUIZ_FEEDBACK_SELECTION_1 }}</strong> {{ .Page.Params.QUIZ_FEEDBACK_TEXT_1 }}
+                            </p>
+                        </div>
+
+                        <!--  -->
+
+                        <div class="block__checkbox">
+                            <div class="form-control__checkbox">
+                                <label class="container">
+                                    {{ .Page.Params.QUIZ_ANSWER_2 }}
+                                    <input type="checkbox" name="question" id="q1-option2" data-val="{{ .Page.Params.QUIZ_VAL_2 }}">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <!--form-control__checkbox-->
+                            <p class="block__question-feedback js-feedback" style="display: none;">
+                                <span class="feedback">
+                                    <img src="{{ .Page.Params.QUIZ_FEEDBACK_ICON_2  | relURL }}" alt="">
+                                </span>
+                                <strong>{{ .Page.Params.QUIZ_FEEDBACK_SELECTION_2 }}</strong> {{ .Page.Params.QUIZ_FEEDBACK_TEXT_2 }}
+                            </p>
+                        </div>
+
+                        <!--  -->
+                        <div class="block__checkbox">
+                            <div class="form-control__checkbox">
+                                <label class="container">
+                                    {{ .Page.Params.QUIZ_ANSWER_3 }}
+                                    <input type="checkbox" name="question" id="q1-option3" data-val="{{ .Page.Params.QUIZ_VAL_3 }}">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <!--form-control__checkbox-->
+                            <p class="block__question-feedback js-feedback" style="display: none;">
+                                <span class="feedback">
+                                    <img src="{{ .Page.Params.QUIZ_FEEDBACK_ICON_3  | relURL }}" alt="">
+                                </span>
+                                <strong>{{ .Page.Params.QUIZ_FEEDBACK_SELECTION_3 }}</strong> {{ .Page.Params.QUIZ_FEEDBACK_TEXT_3 }}
+                            </p>
+                        </div>
+
+                        <!--  -->
+                        <div class="block__checkbox">
+                            <div class="form-control__checkbox">
+                                <label class="container">
+                                    {{ .Page.Params.QUIZ_ANSWER_4 }}
+                                    <input type="checkbox" name="question" id="q1-option4" data-val="{{ .Page.Params.QUIZ_VAL_4 }}">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <!--form-control__checkbox-->
+                            <p class="block__question-feedback js-feedback" style="display: none;">
+                                <span class="feedback">
+                                    <img src="{{ .Page.Params.QUIZ_FEEDBACK_ICON_4  | relURL }}" alt="">
+                                </span>
+                                <strong>{{ .Page.Params.QUIZ_FEEDBACK_SELECTION_4 }}</strong> {{ .Page.Params.QUIZ_FEEDBACK_TEXT_4 }}
+                            </p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="block__buttons">
+                        <p>
+                            <span class="block__buttons-icon">
+                                <svg role="presentation" aria-hidden="true" focusable="false">
+                                    <use xlink:href="/img/sprite.svg#location" />
+                                </svg>
+                            </span>
+                            {{ .Page.Params.QUIZ_COUNTER_QUESTION }}
+                        </p>
+
+                        <div>
+
+                            <a href="{{ .Page.Params.QUIZ_NEXT_QUESTION_LINK | relURL  }}" class="btn btn--secondary btn--icon btn--next-question js-next-question" style="display: none;">
+                                {{ .Page.Params.QUIZ_NEXT_QUESTION }}
+                                
+
+                                <span class="btn__icon btn__icon-left">
+                                    <svg role="presentation" aria-hidden="true" focusable="false">
+                                        <use xlink:href="/img/sprite.svg#chevron-right" />
+                                    </svg>
+                                </span>
+                            </a>
+
+                            <a href="#" class="btn btn--secondary btn--check">{{ .Page.Params.QUIZ_CHECK_QUESTION }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--./block .block-quiz-->
+
+
+             <div class="page__content-buttons page__content-buttons--space-between">
+                <a href="{{ .Page.Params.PAGE_BUTTON_BACK | relURL }}" class="btn btn--primary btn--icon btn--icon-left">
+                    <span class="btn__icon btn__icon-left"> 
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#chevron-left" />
+                        </svg>
+                    </span>
+
+                    {{ .Page.Params.PAGE_BUTTON_BACK_TEXT }} <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_BACK_TEXT_AA }}</span>
+                </a>
+                <!--./btn .btn-primary .btn-icon-->
+                <a href="{{ .Page.Params.PAGE_BUTTON_NEXT | relURL }}" class="btn btn--primary btn--icon">
+                    {{ .Page.Params.PAGE_BUTTON_NEXT_TEXT }} <span class="sr-only">{{ .Page.Params.PAGE_BUTTON_NEXT_TEXT_AA }}</span>
+
+                    <span class="btn__icon"> 
+                        <svg role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="/img/sprite.svg#chevron-right" />
+                        </svg>
+                    </span>
+                </a>
+                <!--./btn .btn-primary .btn-icon-->
+            </div>
+            <!--./page__content-buttons-->
+
+        </div>
+    </main>
+</div>
+{{ end }}
